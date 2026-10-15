@@ -1,0 +1,78 @@
+{
+  "validator_commit": "36bd8b0d9c4bc0a8e846c0cb965bc6eb29352cee",
+  "solver_source_sha256": "86a1c02832d74b5ae2d74a3731c3279cc1ad0e49c3686af941358eba841459c4",
+  "checks": [
+    {
+      "archive": "snapshot_1792064928918013842.zip",
+      "case": "Case3",
+      "fleet": 4,
+      "zip_crc_ok": true,
+      "validated_solution_files": 7,
+      "physical_export_matches": true,
+      "solver_source_sha256_matches": true,
+      "snapshot_elapsed_hours": 6.0002,
+      "validation": {
+        "best_makespan": {
+          "structurally_valid": true,
+          "feasible_9h": false,
+          "Tmax": 9.403611015410185,
+          "violation_h": 1.5043833885881934,
+          "times_h": [
+            9.403374663902373,
+            9.358016062101822,
+            9.339381647173814,
+            9.403611015410185
+          ]
+        },
+        "best_violation": {
+          "structurally_valid": true,
+          "feasible_9h": false,
+          "Tmax": 9.894034734097389,
+          "violation_h": 1.372428466457853,
+          "times_h": [
+            9.205352704200333,
+            9.894034734097389,
+            9.073591867068325,
+            9.199449161091806
+          ]
+        },
+        "best_feasible": null
+      }
+    },
+    {
+      "archive": "snapshot_1792064931712292139.zip",
+      "case": "Case1",
+      "fleet": 3,
+      "zip_crc_ok": true,
+      "validated_solution_files": 19,
+      "physical_export_matches": true,
+      "solver_source_sha256_matches": true,
+      "snapshot_elapsed_hours": 6.0006,
+      "validation": {
+        "best_makespan": {
+          "structurally_valid": true,
+          "feasible_9h": false,
+          "Tmax": 10.247496253716081,
+          "violation_h": 3.7061031500531065,
+          "times_h": [
+            10.23323787372228,
+            10.225369022614746,
+            10.247496253716081
+          ]
+        },
+        "best_violation": {
+          "structurally_valid": true,
+          "feasible_9h": false,
+          "Tmax": 11.76646724760372,
+          "violation_h": 3.0574335935692147,
+          "times_h": [
+            11.76646724760372,
+            9.20468130987272,
+            9.086285036092775
+          ]
+        },
+        "best_feasible": null
+      }
+    }
+  ]
+}

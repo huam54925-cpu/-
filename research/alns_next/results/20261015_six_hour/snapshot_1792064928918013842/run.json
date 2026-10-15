@@ -1,0 +1,8 @@
+{
+  "case": "Case3",
+  "fleet": 4,
+  "instance_sha256": "0d8e87f0035c1a8cb28cc4f280dfa16ead0a2d6d7bffec1ad17971d67ae8374f",
+  "workers": 2,
+  "source_sha256": "86a1c02832d74b5ae2d74a3731c3279cc1ad0e49c3686af941358eba841459c4",
+  "updated_unix": 1792043327.809867
+}
