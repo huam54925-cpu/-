@@ -1,0 +1,25 @@
+{
+  "best_makespan": {
+    "structurally_valid": true,
+    "feasible_9h": false,
+    "Tmax": 10.433467186513786,
+    "violation_h": 4.28870733815881,
+    "times_h": [
+      10.433467186513786,
+      10.427465023020453,
+      10.427775128624571
+    ]
+  },
+  "best_violation": {
+    "structurally_valid": true,
+    "feasible_9h": false,
+    "Tmax": 10.433467186513786,
+    "violation_h": 4.28870733815881,
+    "times_h": [
+      10.433467186513786,
+      10.427465023020453,
+      10.427775128624571
+    ]
+  },
+  "best_feasible": null
+}
