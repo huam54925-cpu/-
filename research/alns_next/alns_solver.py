@@ -4,8 +4,21 @@ import hashlib
 import json
 import math
 import random
+import os
+import signal
 import time
 from pathlib import Path
+
+
+def atomic_json(path, value):
+    path = Path(path)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    tmp = path.with_suffix(path.suffix + '.tmp')
+    with tmp.open('w', encoding='utf-8') as stream:
+        json.dump(value, stream, indent=2, allow_nan=False)
+        stream.flush()
+        os.fsync(stream.fileno())
+    tmp.replace(path)
 
 
 class BudgetExpired(Exception):
@@ -28,9 +41,10 @@ class Solver:
                         for b in self.xy] for a in self.xy]
         self.service, self.limit = instance['service_h'], instance['limit_h']
         self.deadline = float('inf')
+        self.stop_requested = False
 
     def check_time(self):
-        if time.monotonic() >= self.deadline:
+        if self.stop_requested or time.monotonic() >= self.deadline:
             raise BudgetExpired
 
     def valid(self, r):
@@ -140,7 +154,7 @@ class Solver:
                 routes,score = candidate,value
         return routes
 
-    def solve(self, seconds, iterations, warm=None, checkpoint=None):
+    def solve(self, seconds, iterations, warm=None, checkpoint=None, archives=None):
         started = time.monotonic(); self.deadline = started+seconds
         if warm is None:
             # Random singleton anchors diversify the otherwise deterministic repair.
@@ -153,6 +167,24 @@ class Solver:
             raise ValueError('Invalid initial solution')
         best_max = [r[:] for r in current]; best_v = [r[:] for r in current]
         best_feasible = current if self.metrics(current)[0] <= self.limit+1e-9 else None
+        if archives:
+            for name in ('best_makespan', 'best_violation', 'best_feasible'):
+                item = archives.get(name)
+                if item is None:
+                    continue
+                r = item['routes']
+                if (len(r) != self.k or not all(r) or
+                    sorted(u for route in r for u in route) != list(range(self.n)) or
+                    not all(self.valid(route) for route in r)):
+                    raise ValueError('Invalid archived solution')
+                m = self.metrics(r)
+                if m[:3] < self.metrics(best_max)[:3]:
+                    best_max = [route[:] for route in r]
+                bv = self.metrics(best_v)
+                if (m[1],m[0],m[2]) < (bv[1],bv[0],bv[2]):
+                    best_v = [route[:] for route in r]
+                if m[0] <= self.limit+1e-9 and (best_feasible is None or m[0] < self.metrics(best_feasible)[0]):
+                    best_feasible = [route[:] for route in r]
         weights = [1.]*8
         stats = [{'attempts':0,'accepted':0,'archive_improvements':0,'repair_failures':0} for _ in weights]
         history = []; completed = 0; last_save = started
@@ -169,8 +201,8 @@ class Solver:
                     'status':'FEASIBLE' if best_feasible is not None else 'UNKNOWN'}
         def save():
             if checkpoint:
-                path = Path(checkpoint); tmp = path.with_suffix(path.suffix+'.tmp')
-                tmp.write_text(json.dumps(snapshot(),indent=2)); tmp.replace(path)
+                atomic_json(checkpoint, snapshot())
+        save()  # Preserve a complete initial witness before entering the loop.
         try:
             for it in range(iterations):
                 self.check_time()
@@ -202,6 +234,7 @@ class Solver:
                     if archive_gain:
                         reward = 8.; stats[idx]['archive_improvements'] += 1
                         history.append({'iteration':it,'seconds':time.monotonic()-started,'Tmax':m[0],'V':m[1],'operator_pair':idx})
+                        save()
                 weights[idx] = max(.1,.9*weights[idx]+.1*reward)
                 if time.monotonic()-last_save>=10:
                     save(); last_save=time.monotonic()
@@ -218,23 +251,31 @@ def main():
     p.add_argument('--seed',type=int,default=0);p.add_argument('--seconds',type=float,default=60)
     p.add_argument('--iterations',type=int,default=1000000)
     p.add_argument('--focus',choices=['max','violation'],default='max')
-    p.add_argument('--warm',help='Previous output JSON; warm start from best_makespan (not exact resume)')
+    p.add_argument('--warm',help='Previous output JSON; preserve all archives (not exact RNG resume)')
     p.add_argument('--out',default='result.json')
     a=p.parse_args()
-    if a.seconds<=0 or a.fleet<1 or a.iterations<0: p.error('Invalid budget or fleet')
+    if not math.isfinite(a.seconds) or a.seconds<=0 or a.fleet<1 or a.iterations<0: p.error('Invalid budget or fleet')
     instance=json.loads(Path(a.data).read_text())['cases'][a.case]
     s=Solver(instance,a.fleet,a.seed,a.focus)
     s.case=a.case
+    def stop(signum, frame):
+        s.stop_requested = True
+    signal.signal(signal.SIGTERM, stop)
+    signal.signal(signal.SIGINT, stop)
     if a.fleet>s.n:p.error('Fleet exceeds number of task copies')
-    warm=None
+    warm=None;prior=None
     if a.warm:
         prior=json.loads(Path(a.warm).read_text())
         if prior.get('case')!=a.case or prior['fleet']!=a.fleet or prior.get('instance_sha256')!=s.fingerprint:p.error('Warm-start case/fleet mismatch')
-        warm=prior['best_makespan']['routes']
-    try: result=s.solve(a.seconds,a.iterations,warm,a.out+'.checkpoint.json')
+        from validate import validate
+        validate({'cases':{a.case:instance}},prior)
+        warm=prior['best_violation' if a.focus=='violation' else 'best_makespan']['routes']
+    try: result=s.solve(a.seconds,a.iterations,warm,a.out+'.checkpoint.json',archives=prior)
     except BudgetExpired:p.error('Budget expired during initialization; increase --seconds')
     result.update({'case':a.case,'seed':a.seed,'input':str(Path(a.data).resolve()),'prototype':True})
-    Path(a.out).write_text(json.dumps(result,indent=2))
+    from validate import validate
+    validate({'cases':{a.case:instance}},result)
+    atomic_json(a.out,result)
     print(json.dumps({k:result[k] for k in ['case','status','iterations','elapsed_seconds','initial_Tmax']}))
     print('Best Tmax:',result['best_makespan']['Tmax'])
 

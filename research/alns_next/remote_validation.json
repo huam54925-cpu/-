@@ -1,0 +1,51 @@
+{
+  "input_xlsx_sha256_verified": "b1e9883575d0535addf8bbacd8bf21f9abeaf22de0bee48ee2f61445ab4cfa0b",
+  "coordinate_rows_and_visits_match_xlsx": true,
+  "case_physical_points": {
+    "Case1": 52,
+    "Case2": 99,
+    "Case3": 100,
+    "Case4": 130
+  },
+  "case_task_copies": {
+    "Case1": 72,
+    "Case2": 139,
+    "Case3": 140,
+    "Case4": 182
+  },
+  "soak_progress": {
+    "status": "stopped",
+    "case": "Case1",
+    "fleet": 3,
+    "instance_sha256": "8edfbad732afb3501d0e2616946475be39d5f5540d335d215e829a66dd8b1ac8",
+    "updated_unix": 1792041453.5718968,
+    "elapsed_hours": 0.012582504746666624,
+    "has_saved_result": true
+  },
+  "independent_validation": {
+    "best_makespan": {
+      "structurally_valid": true,
+      "feasible_9h": false,
+      "Tmax": 10.268649586465672,
+      "violation_h": 3.7621093659800255,
+      "times_h": [
+        10.240200389369452,
+        10.268649586465672,
+        10.253259390144901
+      ]
+    },
+    "best_violation": {
+      "structurally_valid": true,
+      "feasible_9h": false,
+      "Tmax": 11.76646724760372,
+      "violation_h": 3.06680752329501,
+      "times_h": [
+        11.76646724760372,
+        9.195642284308578,
+        9.104697991382713
+      ]
+    },
+    "best_feasible": null
+  },
+  "six_hour_run_performed": false
+}

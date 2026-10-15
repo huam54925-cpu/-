@@ -3,11 +3,17 @@ import argparse
 from collections import Counter
 import json
 import math
+import hashlib
 from pathlib import Path
 
 
 def validate(data, result):
     ins = data['cases'][result['case']]
+    fingerprint=hashlib.sha256(json.dumps(ins,sort_keys=True).encode()).hexdigest()
+    if result.get('instance_sha256')!=fingerprint:raise ValueError('Instance hash mismatch')
+    if result.get('status') not in ('FEASIBLE','UNKNOWN'):raise ValueError('Invalid heuristic status')
+    if type(result.get('fleet')) is not int or result['fleet']<1:raise ValueError('Invalid fleet')
+    if any(result.get(k) is None for k in ('best_makespan','best_violation')):raise ValueError('Missing required archive')
     copies = []
     for p in ins['points']:
         copies.extend([p]*p['visits'])
@@ -36,6 +42,7 @@ def validate(data, result):
         if key=='best_feasible' and not feasible:raise ValueError('False feasible claim')
         reports[key]={'structurally_valid':True,'feasible_9h':feasible,'Tmax':t,'violation_h':v,'times_h':times}
     if result['status']=='FEASIBLE' and result.get('best_feasible') is None:raise ValueError('Missing feasible witness')
+    if result['status']=='UNKNOWN' and any(x and x['feasible_9h'] for x in reports.values()):raise ValueError('Feasible archive has UNKNOWN status')
     return reports
 
 
