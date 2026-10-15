@@ -1,0 +1,8 @@
+test_same_location_tasks_not_consecutive (test_solver.Tests.test_same_location_tasks_not_consecutive) ... ok
+test_separator_removal_and_repair_preserve_tasks (test_solver.Tests.test_separator_removal_and_repair_preserve_tasks) ... ok
+test_validator_rejects_duplicate_and_wrong_times (test_solver.Tests.test_validator_rejects_duplicate_and_wrong_times) ... ok
+
+----------------------------------------------------------------------
+Ran 3 tests in 5.669s
+
+OK
