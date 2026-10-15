@@ -1,0 +1,52 @@
+{
+  "status": "running",
+  "case": "Case3",
+  "fleet": 4,
+  "instance_sha256": "0d8e87f0035c1a8cb28cc4f280dfa16ead0a2d6d7bffec1ad17971d67ae8374f",
+  "elapsed_hours": 6.0002,
+  "alive_workers": 2,
+  "workers_requested": 2,
+  "rounds": {
+    "0": 36,
+    "1": 36
+  },
+  "consecutive_failures": {
+    "0": 0,
+    "1": 0
+  },
+  "worker_pids": {
+    "0": 2416,
+    "1": 2417
+  },
+  "last_issue": null,
+  "updated_unix": 1792064928.83761,
+  "best": {
+    "best_makespan": {
+      "Tmax": 9.403611015410183,
+      "violation_h": 1.5043833885881917,
+      "total_h": 37.504383388588195,
+      "times_h": [
+        9.403374663902373,
+        9.358016062101822,
+        9.339381647173814,
+        9.403611015410183
+      ]
+    },
+    "best_violation": {
+      "Tmax": 9.89403473409739,
+      "violation_h": 1.3724284664578548,
+      "total_h": 37.372428466457855,
+      "times_h": [
+        9.205352704200333,
+        9.89403473409739,
+        9.073591867068325,
+        9.199449161091806
+      ]
+    },
+    "best_feasible": null
+  },
+  "checkpoints": {
+    "0": 9.9,
+    "1": 9.5
+  }
+}
