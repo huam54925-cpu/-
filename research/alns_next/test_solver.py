@@ -2,6 +2,7 @@ import copy
 import json
 from pathlib import Path
 import unittest
+import tempfile
 from alns_solver import Solver
 from validate import validate
 
@@ -42,6 +43,26 @@ class Tests(unittest.TestCase):
         self.assertFalse(s.valid([0,1]))
         self.assertTrue(s.valid([0,3,1]))
         self.assertIsNone(s.repair([[0,3,1]],[2],1))
+
+    def test_initial_checkpoint_and_archive_resume(self):
+        s=Solver(DATA['cases']['Case1'],3,3);s.case='Case1'
+        with tempfile.TemporaryDirectory() as directory:
+            path=Path(directory)/'nested'/'checkpoint.json'
+            first=s.solve(30,3,checkpoint=path)
+            validate(DATA,json.loads(path.read_text()))
+            second=Solver(DATA['cases']['Case1'],3,4,focus='violation')
+            second.case='Case1'
+            resumed=second.solve(30,0,warm=first['best_violation']['routes'],archives=first)
+            validate(DATA,resumed)
+            self.assertLessEqual(resumed['best_makespan']['Tmax'],first['best_makespan']['Tmax'])
+            self.assertLessEqual(resumed['best_violation']['violation_h'],first['best_violation']['violation_h'])
+
+    def test_validator_rejects_missing_archive_or_wrong_identity(self):
+        s=Solver(DATA['cases']['Case1'],3);s.case='Case1'
+        result=s.solve(30,0)
+        for change in ({'best_makespan':None},{'instance_sha256':'wrong'},{'status':'INFEASIBLE'}):
+            bad={**result,**change}
+            with self.assertRaises(ValueError):validate(DATA,bad)
 
 
 if __name__=='__main__':unittest.main()

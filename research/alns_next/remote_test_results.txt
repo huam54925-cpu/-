@@ -1,0 +1,12 @@
+test_http (test_remote.RemoteTests.test_http) ... ok
+test_killed_child_restarts_and_resume_keeps_archives (test_remote.RemoteTests.test_killed_child_restarts_and_resume_keeps_archives) ... ok
+test_initial_checkpoint_and_archive_resume (test_solver.Tests.test_initial_checkpoint_and_archive_resume) ... ok
+test_same_location_tasks_not_consecutive (test_solver.Tests.test_same_location_tasks_not_consecutive) ... ok
+test_separator_removal_and_repair_preserve_tasks (test_solver.Tests.test_separator_removal_and_repair_preserve_tasks) ... ok
+test_validator_rejects_duplicate_and_wrong_times (test_solver.Tests.test_validator_rejects_duplicate_and_wrong_times) ... ok
+test_validator_rejects_missing_archive_or_wrong_identity (test_solver.Tests.test_validator_rejects_missing_archive_or_wrong_identity) ... ok
+
+----------------------------------------------------------------------
+Ran 7 tests in 9.315s
+
+OK
