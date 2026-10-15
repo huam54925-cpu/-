@@ -26,6 +26,8 @@ class BudgetExpired(Exception):
 
 
 class Solver:
+    destroy_names = ("random", "bottleneck", "spatial", "segment")
+
     def __init__(self, instance, fleet=3, seed=0, focus='max'):
         self.data, self.k = instance, fleet
         self.case = None
@@ -185,8 +187,8 @@ class Solver:
                     best_v = [route[:] for route in r]
                 if m[0] <= self.limit+1e-9 and (best_feasible is None or m[0] < self.metrics(best_feasible)[0]):
                     best_feasible = [route[:] for route in r]
-        weights = [1.]*8
-        stats = [{'attempts':0,'accepted':0,'archive_improvements':0,'repair_failures':0} for _ in weights]
+        weights = [1.]*(2*len(self.destroy_names))
+        stats = [{'attempts':0,'accepted':0,'archive_improvements':0,'repair_failures':0,'repair_successes':0,'destroy_repair_seconds':0.,'intensify_seconds':0.} for _ in weights]
         history = []; completed = 0; last_save = started
         initial_max = self.metrics(current)[0]
         def snapshot():
@@ -198,6 +200,9 @@ class Solver:
                     'iterations':completed,'initial_Tmax':initial_max,'best_makespan':record(best_max),
                     'best_violation':record(best_v),'best_feasible':record(best_feasible),
                     'current':record(current),'weights':weights,'operator_stats':stats,'history':history,
+                    'operator_names':[d+'/'+r for d in self.destroy_names for r in ('greedy','regret2')],
+                    'diagnostics':getattr(self, 'diagnostics', {}),
+                    'variant':getattr(self, 'variant', 'baseline'),
                     'status':'FEASIBLE' if best_feasible is not None else 'UNKNOWN'}
         def save():
             if checkpoint:
@@ -206,16 +211,25 @@ class Solver:
         try:
             for it in range(iterations):
                 self.check_time()
-                idx = self.rng.choices(range(8),weights=weights,k=1)[0]
+                idx = self.rng.choices(range(len(weights)),weights=weights,k=1)[0]
                 stats[idx]['attempts'] += 1
-                partial, removed = self.destroy(current,idx//2)
-                candidate = self.repair(partial,removed,idx%2)
+                phase_started = time.monotonic()
+                try:
+                    partial, removed = self.destroy(current,idx//2)
+                    candidate = self.repair(partial,removed,idx%2)
+                finally:
+                    stats[idx]['destroy_repair_seconds'] += time.monotonic()-phase_started
                 completed += 1
                 reward = .1
                 if candidate is None:
                     stats[idx]['repair_failures'] += 1
                 else:
-                    candidate = self.intensify(candidate,120)
+                    stats[idx]['repair_successes'] += 1
+                    phase_started = time.monotonic()
+                    try:
+                        candidate = self.intensify(candidate,120)
+                    finally:
+                        stats[idx]['intensify_seconds'] += time.monotonic()-phase_started
                     m = self.metrics(candidate); archive_gain = False
                     if (m[0],m[1],m[2]) < self.metrics(best_max)[:3]:
                         best_max = [r[:] for r in candidate]; archive_gain = True
@@ -244,7 +258,7 @@ class Solver:
         return snapshot()
 
 
-def main():
+def main(solver_cls=Solver):
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument('--data',default=str(Path(__file__).with_name('instances.json')))
     p.add_argument('--case',default='Case1');p.add_argument('--fleet',type=int,default=3)
@@ -256,7 +270,7 @@ def main():
     a=p.parse_args()
     if not math.isfinite(a.seconds) or a.seconds<=0 or a.fleet<1 or a.iterations<0: p.error('Invalid budget or fleet')
     instance=json.loads(Path(a.data).read_text())['cases'][a.case]
-    s=Solver(instance,a.fleet,a.seed,a.focus)
+    s=solver_cls(instance,a.fleet,a.seed,a.focus)
     s.case=a.case
     def stop(signum, frame):
         s.stop_requested = True
