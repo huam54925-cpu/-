@@ -1,0 +1,43 @@
+{
+  "status": "completed",
+  "elapsed_hours": 3.0016391246848637,
+  "remaining_hours": 0.0,
+  "phase": "exploration",
+  "alive_workers": 0,
+  "worker_pids": {},
+  "completed_jobs": 208,
+  "failed_jobs": 0,
+  "promotion": null,
+  "issues": [
+    "[Errno 2] No such file or directory"
+  ],
+  "bounds": {
+    "Case1": {
+      "Tmax_lower_h": 9.020600633333334,
+      "excluded_9h": true
+    },
+    "Case3": {
+      "Tmax_lower_h": 8.321550884848484,
+      "excluded_9h": false
+    }
+  },
+  "resources": {
+    "cpu_equivalents": 12.75,
+    "memory_bytes": 116999999488
+  },
+  "best": {
+    "Case1": {
+      "Tmax": 10.247496253716081,
+      "best_makespan_violation_h": 3.7061031500531065,
+      "best_violation_h": 3.057433593569213,
+      "status": "UNKNOWN"
+    },
+    "Case3": {
+      "Tmax": 9.403611015410183,
+      "best_makespan_violation_h": 1.5043833885881917,
+      "best_violation_h": 1.372428466457853,
+      "status": "UNKNOWN"
+    }
+  },
+  "updated_unix": 1792157849.3497808
+}

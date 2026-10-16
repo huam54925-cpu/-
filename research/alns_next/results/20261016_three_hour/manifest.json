@@ -1,0 +1,3367 @@
+{
+  "sha256": "556f01282f1d4f0b83a78d9574f05b0cade7b3f3edc8503eaeeec442cff66a1f",
+  "size_bytes": 1367945,
+  "zip_crc": "PASS",
+  "archive_complete": false,
+  "entry_count": 669,
+  "completed_jobs": 208,
+  "interrupted_jobs": 12,
+  "failed_jobs": 0,
+  "validated_route_result_files": 215,
+  "core_routes_and_bound_certificates": "PASS",
+  "missing_job_results": [
+    "jobs/00217_exploration_Case3_wide_1792157287699216067/result.json",
+    "jobs/00218_exploration_Case3_baseline_1792157288522668219/result.json",
+    "jobs/00219_exploration_Case3_both_1792157289310201382/result.json"
+  ],
+  "empty_json_files": [
+    "jobs/00216_exploration_Case3_balanced_1792157286279009645/result.json.checkpoint.json"
+  ],
+  "entries": [
+    {
+      "path": "best_Case1.json",
+      "size_bytes": 2479,
+      "crc32": "da9a72b0"
+    },
+    {
+      "path": "best_Case3.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "bound_Case1.json",
+      "size_bytes": 9453,
+      "crc32": "ff536b12"
+    },
+    {
+      "path": "bound_Case3.json",
+      "size_bytes": 30181,
+      "crc32": "4f921cd1"
+    },
+    {
+      "path": "input_Case1.json",
+      "size_bytes": 2679,
+      "crc32": "8dbc8c9c"
+    },
+    {
+      "path": "input_Case3.json",
+      "size_bytes": 4287,
+      "crc32": "93cfe4d0"
+    },
+    {
+      "path": "paired_summary.json",
+      "size_bytes": 2,
+      "crc32": "0d4cbb29"
+    },
+    {
+      "path": "physical_Case1.json",
+      "size_bytes": 4113,
+      "crc32": "c3777feb"
+    },
+    {
+      "path": "physical_Case3.json",
+      "size_bytes": 6692,
+      "crc32": "5c856bea"
+    },
+    {
+      "path": "progress.json",
+      "size_bytes": 987,
+      "crc32": "2924b0a0"
+    },
+    {
+      "path": "state.json",
+      "size_bytes": 148228,
+      "crc32": "5199a86a"
+    },
+    {
+      "path": "supervisor.pid",
+      "size_bytes": 5,
+      "crc32": "b2347099"
+    },
+    {
+      "path": "final_1792157850087469418/best_Case1.json",
+      "size_bytes": 2479,
+      "crc32": "da9a72b0"
+    },
+    {
+      "path": "final_1792157850087469418/best_Case3.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "final_1792157850087469418/physical_Case1.json",
+      "size_bytes": 4113,
+      "crc32": "c3777feb"
+    },
+    {
+      "path": "final_1792157850087469418/physical_Case3.json",
+      "size_bytes": 6692,
+      "crc32": "5c856bea"
+    },
+    {
+      "path": "final_1792157850087469418/progress.json",
+      "size_bytes": 987,
+      "crc32": "2924b0a0"
+    },
+    {
+      "path": "snapshot_1792150646366055573/best_Case1.json",
+      "size_bytes": 2479,
+      "crc32": "da9a72b0"
+    },
+    {
+      "path": "snapshot_1792150646366055573/best_Case3.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "snapshot_1792150646366055573/progress.json",
+      "size_bytes": 1149,
+      "crc32": "9b6ce831"
+    },
+    {
+      "path": "snapshot_1792154246386594399/best_Case1.json",
+      "size_bytes": 2479,
+      "crc32": "da9a72b0"
+    },
+    {
+      "path": "snapshot_1792154246386594399/best_Case3.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "snapshot_1792154246386594399/progress.json",
+      "size_bytes": 1160,
+      "crc32": "740adddb"
+    },
+    {
+      "path": "jobs/00000_bound_Case1_connectivity_1792147044213504642/result.json",
+      "size_bytes": 9453,
+      "crc32": "ff536b12"
+    },
+    {
+      "path": "jobs/00001_bound_Case3_connectivity_1792147044299678595/result.json",
+      "size_bytes": 30181,
+      "crc32": "4f921cd1"
+    },
+    {
+      "path": "jobs/00002_exploration_Case3_regional_1792147044514950211/result.json",
+      "size_bytes": 9867,
+      "crc32": "1680e660"
+    },
+    {
+      "path": "jobs/00002_exploration_Case3_regional_1792147044514950211/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "2c05aef0"
+    },
+    {
+      "path": "jobs/00002_exploration_Case3_regional_1792147044514950211/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00003_exploration_Case3_balanced_1792147044753584004/result.json",
+      "size_bytes": 9877,
+      "crc32": "1578a669"
+    },
+    {
+      "path": "jobs/00003_exploration_Case3_balanced_1792147044753584004/result.json.checkpoint.json",
+      "size_bytes": 9767,
+      "crc32": "4231b7ea"
+    },
+    {
+      "path": "jobs/00003_exploration_Case3_balanced_1792147044753584004/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00004_exploration_Case3_wide_1792147044973353122/result.json",
+      "size_bytes": 9861,
+      "crc32": "87ded2d0"
+    },
+    {
+      "path": "jobs/00004_exploration_Case3_wide_1792147044973353122/result.json.checkpoint.json",
+      "size_bytes": 9751,
+      "crc32": "6a5fc0f9"
+    },
+    {
+      "path": "jobs/00004_exploration_Case3_wide_1792147044973353122/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00005_exploration_Case3_baseline_1792147045177887562/result.json",
+      "size_bytes": 9033,
+      "crc32": "b36d93d5"
+    },
+    {
+      "path": "jobs/00005_exploration_Case3_baseline_1792147045177887562/result.json.checkpoint.json",
+      "size_bytes": 8923,
+      "crc32": "e90a1d29"
+    },
+    {
+      "path": "jobs/00005_exploration_Case3_baseline_1792147045177887562/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00006_exploration_Case3_both_1792147045379804716/result.json",
+      "size_bytes": 9797,
+      "crc32": "33bc20da"
+    },
+    {
+      "path": "jobs/00006_exploration_Case3_both_1792147045379804716/result.json.checkpoint.json",
+      "size_bytes": 9688,
+      "crc32": "825eb4bb"
+    },
+    {
+      "path": "jobs/00006_exploration_Case3_both_1792147045379804716/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00007_exploration_Case3_regional_1792147045591517497/result.json",
+      "size_bytes": 9868,
+      "crc32": "0696faba"
+    },
+    {
+      "path": "jobs/00007_exploration_Case3_regional_1792147045591517497/result.json.checkpoint.json",
+      "size_bytes": 9758,
+      "crc32": "f0350f87"
+    },
+    {
+      "path": "jobs/00007_exploration_Case3_regional_1792147045591517497/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00008_exploration_Case3_balanced_1792147045802232747/result.json",
+      "size_bytes": 9869,
+      "crc32": "a6777593"
+    },
+    {
+      "path": "jobs/00008_exploration_Case3_balanced_1792147045802232747/result.json.checkpoint.json",
+      "size_bytes": 9759,
+      "crc32": "435d1317"
+    },
+    {
+      "path": "jobs/00008_exploration_Case3_balanced_1792147045802232747/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00009_exploration_Case3_wide_1792147046032125265/result.json",
+      "size_bytes": 9863,
+      "crc32": "6fa7cf6a"
+    },
+    {
+      "path": "jobs/00009_exploration_Case3_wide_1792147046032125265/result.json.checkpoint.json",
+      "size_bytes": 9753,
+      "crc32": "0564c32f"
+    },
+    {
+      "path": "jobs/00009_exploration_Case3_wide_1792147046032125265/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00010_exploration_Case1_baseline_1792147046234506254/result.json",
+      "size_bytes": 6349,
+      "crc32": "41c8867e"
+    },
+    {
+      "path": "jobs/00010_exploration_Case1_baseline_1792147046234506254/result.json.checkpoint.json",
+      "size_bytes": 6239,
+      "crc32": "eba4539b"
+    },
+    {
+      "path": "jobs/00010_exploration_Case1_baseline_1792147046234506254/warm.json",
+      "size_bytes": 2479,
+      "crc32": "da9a72b0"
+    },
+    {
+      "path": "jobs/00011_exploration_Case1_both_1792147046466289730/result.json",
+      "size_bytes": 7093,
+      "crc32": "facd0344"
+    },
+    {
+      "path": "jobs/00011_exploration_Case1_both_1792147046466289730/result.json.checkpoint.json",
+      "size_bytes": 6983,
+      "crc32": "37e7fd7c"
+    },
+    {
+      "path": "jobs/00011_exploration_Case1_both_1792147046466289730/warm.json",
+      "size_bytes": 2479,
+      "crc32": "da9a72b0"
+    },
+    {
+      "path": "jobs/00012_exploration_Case3_baseline_1792147048175261520/result.json",
+      "size_bytes": 9037,
+      "crc32": "96a759ff"
+    },
+    {
+      "path": "jobs/00012_exploration_Case3_baseline_1792147048175261520/result.json.checkpoint.json",
+      "size_bytes": 8928,
+      "crc32": "e120fe72"
+    },
+    {
+      "path": "jobs/00012_exploration_Case3_baseline_1792147048175261520/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00013_exploration_Case3_both_1792147048308056439/result.json",
+      "size_bytes": 9790,
+      "crc32": "eb84cf55"
+    },
+    {
+      "path": "jobs/00013_exploration_Case3_both_1792147048308056439/result.json.checkpoint.json",
+      "size_bytes": 9680,
+      "crc32": "40d5082d"
+    },
+    {
+      "path": "jobs/00013_exploration_Case3_both_1792147048308056439/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00014_exploration_Case3_baseline_1792147048758085169/result.json",
+      "size_bytes": 9027,
+      "crc32": "441c6522"
+    },
+    {
+      "path": "jobs/00014_exploration_Case3_baseline_1792147048758085169/result.json.checkpoint.json",
+      "size_bytes": 8917,
+      "crc32": "3708c916"
+    },
+    {
+      "path": "jobs/00014_exploration_Case3_baseline_1792147048758085169/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00015_exploration_Case3_both_1792147048908115636/result.json",
+      "size_bytes": 9804,
+      "crc32": "5a01616b"
+    },
+    {
+      "path": "jobs/00015_exploration_Case3_both_1792147048908115636/result.json.checkpoint.json",
+      "size_bytes": 9693,
+      "crc32": "f7ee9d06"
+    },
+    {
+      "path": "jobs/00015_exploration_Case3_both_1792147048908115636/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00016_exploration_Case3_regional_1792147645459749047/result.json",
+      "size_bytes": 9869,
+      "crc32": "7c860af4"
+    },
+    {
+      "path": "jobs/00016_exploration_Case3_regional_1792147645459749047/result.json.checkpoint.json",
+      "size_bytes": 9759,
+      "crc32": "043bedc6"
+    },
+    {
+      "path": "jobs/00016_exploration_Case3_regional_1792147645459749047/warm.json",
+      "size_bytes": 9867,
+      "crc32": "1680e660"
+    },
+    {
+      "path": "jobs/00017_exploration_Case3_balanced_1792147646049773376/result.json",
+      "size_bytes": 9876,
+      "crc32": "02fa39e3"
+    },
+    {
+      "path": "jobs/00017_exploration_Case3_balanced_1792147646049773376/result.json.checkpoint.json",
+      "size_bytes": 9766,
+      "crc32": "6efedc15"
+    },
+    {
+      "path": "jobs/00017_exploration_Case3_balanced_1792147646049773376/warm.json",
+      "size_bytes": 9877,
+      "crc32": "1578a669"
+    },
+    {
+      "path": "jobs/00018_exploration_Case3_wide_1792147646346933812/result.json",
+      "size_bytes": 9865,
+      "crc32": "68ed7bcf"
+    },
+    {
+      "path": "jobs/00018_exploration_Case3_wide_1792147646346933812/result.json.checkpoint.json",
+      "size_bytes": 9755,
+      "crc32": "f2667dad"
+    },
+    {
+      "path": "jobs/00018_exploration_Case3_wide_1792147646346933812/warm.json",
+      "size_bytes": 9861,
+      "crc32": "87ded2d0"
+    },
+    {
+      "path": "jobs/00019_exploration_Case3_baseline_1792147646588880407/result.json",
+      "size_bytes": 9033,
+      "crc32": "46efcdb3"
+    },
+    {
+      "path": "jobs/00019_exploration_Case3_baseline_1792147646588880407/result.json.checkpoint.json",
+      "size_bytes": 8922,
+      "crc32": "f1f35f27"
+    },
+    {
+      "path": "jobs/00019_exploration_Case3_baseline_1792147646588880407/warm.json",
+      "size_bytes": 9033,
+      "crc32": "b36d93d5"
+    },
+    {
+      "path": "jobs/00020_exploration_Case3_baseline_1792147650053075350/result.json",
+      "size_bytes": 9033,
+      "crc32": "400245d6"
+    },
+    {
+      "path": "jobs/00020_exploration_Case3_baseline_1792147650053075350/result.json.checkpoint.json",
+      "size_bytes": 8923,
+      "crc32": "e7a8720e"
+    },
+    {
+      "path": "jobs/00020_exploration_Case3_baseline_1792147650053075350/warm.json",
+      "size_bytes": 9037,
+      "crc32": "96a759ff"
+    },
+    {
+      "path": "jobs/00021_exploration_Case3_both_1792147650542053931/result.json",
+      "size_bytes": 9797,
+      "crc32": "5c64790a"
+    },
+    {
+      "path": "jobs/00021_exploration_Case3_both_1792147650542053931/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "f48c57cc"
+    },
+    {
+      "path": "jobs/00021_exploration_Case3_both_1792147650542053931/warm.json",
+      "size_bytes": 9790,
+      "crc32": "eb84cf55"
+    },
+    {
+      "path": "jobs/00022_exploration_Case3_both_1792147650746032856/result.json",
+      "size_bytes": 9790,
+      "crc32": "9328b940"
+    },
+    {
+      "path": "jobs/00022_exploration_Case3_both_1792147650746032856/result.json.checkpoint.json",
+      "size_bytes": 9680,
+      "crc32": "ec4b7f5e"
+    },
+    {
+      "path": "jobs/00022_exploration_Case3_both_1792147650746032856/warm.json",
+      "size_bytes": 9797,
+      "crc32": "33bc20da"
+    },
+    {
+      "path": "jobs/00023_exploration_Case3_regional_1792147650966538792/result.json",
+      "size_bytes": 9878,
+      "crc32": "85769b4d"
+    },
+    {
+      "path": "jobs/00023_exploration_Case3_regional_1792147650966538792/result.json.checkpoint.json",
+      "size_bytes": 9768,
+      "crc32": "09358974"
+    },
+    {
+      "path": "jobs/00023_exploration_Case3_regional_1792147650966538792/warm.json",
+      "size_bytes": 9868,
+      "crc32": "0696faba"
+    },
+    {
+      "path": "jobs/00024_exploration_Case3_balanced_1792147651206780441/result.json",
+      "size_bytes": 9868,
+      "crc32": "19ca8f8a"
+    },
+    {
+      "path": "jobs/00024_exploration_Case3_balanced_1792147651206780441/result.json.checkpoint.json",
+      "size_bytes": 9759,
+      "crc32": "2a8d4d1e"
+    },
+    {
+      "path": "jobs/00024_exploration_Case3_balanced_1792147651206780441/warm.json",
+      "size_bytes": 9869,
+      "crc32": "a6777593"
+    },
+    {
+      "path": "jobs/00025_exploration_Case3_wide_1792147651424885403/result.json",
+      "size_bytes": 9860,
+      "crc32": "54f5aa95"
+    },
+    {
+      "path": "jobs/00025_exploration_Case3_wide_1792147651424885403/result.json.checkpoint.json",
+      "size_bytes": 9750,
+      "crc32": "1947bb93"
+    },
+    {
+      "path": "jobs/00025_exploration_Case3_wide_1792147651424885403/warm.json",
+      "size_bytes": 9863,
+      "crc32": "6fa7cf6a"
+    },
+    {
+      "path": "jobs/00026_exploration_Case3_baseline_1792147651653298037/result.json",
+      "size_bytes": 9037,
+      "crc32": "af50381c"
+    },
+    {
+      "path": "jobs/00026_exploration_Case3_baseline_1792147651653298037/result.json.checkpoint.json",
+      "size_bytes": 8927,
+      "crc32": "bbf5636f"
+    },
+    {
+      "path": "jobs/00026_exploration_Case3_baseline_1792147651653298037/warm.json",
+      "size_bytes": 9027,
+      "crc32": "441c6522"
+    },
+    {
+      "path": "jobs/00027_exploration_Case3_both_1792147651889717728/result.json",
+      "size_bytes": 9794,
+      "crc32": "ef9e8883"
+    },
+    {
+      "path": "jobs/00027_exploration_Case3_both_1792147651889717728/result.json.checkpoint.json",
+      "size_bytes": 9684,
+      "crc32": "2a2d78cb"
+    },
+    {
+      "path": "jobs/00027_exploration_Case3_both_1792147651889717728/warm.json",
+      "size_bytes": 9804,
+      "crc32": "5a01616b"
+    },
+    {
+      "path": "jobs/00028_exploration_Case3_regional_1792148246927200551/result.json",
+      "size_bytes": 9872,
+      "crc32": "6f910e09"
+    },
+    {
+      "path": "jobs/00028_exploration_Case3_regional_1792148246927200551/result.json.checkpoint.json",
+      "size_bytes": 9762,
+      "crc32": "f11b0ac0"
+    },
+    {
+      "path": "jobs/00028_exploration_Case3_regional_1792148246927200551/warm.json",
+      "size_bytes": 9869,
+      "crc32": "7c860af4"
+    },
+    {
+      "path": "jobs/00029_exploration_Case3_balanced_1792148247472426421/result.json",
+      "size_bytes": 9879,
+      "crc32": "474da6be"
+    },
+    {
+      "path": "jobs/00029_exploration_Case3_balanced_1792148247472426421/result.json.checkpoint.json",
+      "size_bytes": 9769,
+      "crc32": "42eab52e"
+    },
+    {
+      "path": "jobs/00029_exploration_Case3_balanced_1792148247472426421/warm.json",
+      "size_bytes": 9876,
+      "crc32": "02fa39e3"
+    },
+    {
+      "path": "jobs/00030_exploration_Case3_wide_1792148247679904989/result.json",
+      "size_bytes": 9867,
+      "crc32": "079c1517"
+    },
+    {
+      "path": "jobs/00030_exploration_Case3_wide_1792148247679904989/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "aa71b8b5"
+    },
+    {
+      "path": "jobs/00030_exploration_Case3_wide_1792148247679904989/warm.json",
+      "size_bytes": 9865,
+      "crc32": "68ed7bcf"
+    },
+    {
+      "path": "jobs/00031_exploration_Case3_baseline_1792148247887137525/result.json",
+      "size_bytes": 9034,
+      "crc32": "07720fd9"
+    },
+    {
+      "path": "jobs/00031_exploration_Case3_baseline_1792148247887137525/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "0beca84d"
+    },
+    {
+      "path": "jobs/00031_exploration_Case3_baseline_1792148247887137525/warm.json",
+      "size_bytes": 9033,
+      "crc32": "46efcdb3"
+    },
+    {
+      "path": "jobs/00032_exploration_Case3_baseline_1792148251884698855/result.json",
+      "size_bytes": 9036,
+      "crc32": "e40f892a"
+    },
+    {
+      "path": "jobs/00032_exploration_Case3_baseline_1792148251884698855/result.json.checkpoint.json",
+      "size_bytes": 8926,
+      "crc32": "c8adc4ec"
+    },
+    {
+      "path": "jobs/00032_exploration_Case3_baseline_1792148251884698855/warm.json",
+      "size_bytes": 9033,
+      "crc32": "400245d6"
+    },
+    {
+      "path": "jobs/00033_exploration_Case3_both_1792148252329162218/result.json",
+      "size_bytes": 9792,
+      "crc32": "2aac4a31"
+    },
+    {
+      "path": "jobs/00033_exploration_Case3_both_1792148252329162218/result.json.checkpoint.json",
+      "size_bytes": 9682,
+      "crc32": "4fa5ead5"
+    },
+    {
+      "path": "jobs/00033_exploration_Case3_both_1792148252329162218/warm.json",
+      "size_bytes": 9797,
+      "crc32": "5c64790a"
+    },
+    {
+      "path": "jobs/00034_exploration_Case3_both_1792148252533046349/result.json",
+      "size_bytes": 9796,
+      "crc32": "e367b387"
+    },
+    {
+      "path": "jobs/00034_exploration_Case3_both_1792148252533046349/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "fed76e28"
+    },
+    {
+      "path": "jobs/00034_exploration_Case3_both_1792148252533046349/warm.json",
+      "size_bytes": 9790,
+      "crc32": "9328b940"
+    },
+    {
+      "path": "jobs/00035_exploration_Case3_regional_1792148252736236975/result.json",
+      "size_bytes": 9876,
+      "crc32": "7bf3fdee"
+    },
+    {
+      "path": "jobs/00035_exploration_Case3_regional_1792148252736236975/result.json.checkpoint.json",
+      "size_bytes": 9766,
+      "crc32": "ce5492bb"
+    },
+    {
+      "path": "jobs/00035_exploration_Case3_regional_1792148252736236975/warm.json",
+      "size_bytes": 9878,
+      "crc32": "85769b4d"
+    },
+    {
+      "path": "jobs/00036_exploration_Case3_balanced_1792148252948759873/result.json",
+      "size_bytes": 9869,
+      "crc32": "dc57a2f3"
+    },
+    {
+      "path": "jobs/00036_exploration_Case3_balanced_1792148252948759873/result.json.checkpoint.json",
+      "size_bytes": 9758,
+      "crc32": "f0244d1d"
+    },
+    {
+      "path": "jobs/00036_exploration_Case3_balanced_1792148252948759873/warm.json",
+      "size_bytes": 9868,
+      "crc32": "19ca8f8a"
+    },
+    {
+      "path": "jobs/00037_exploration_Case3_wide_1792148253157082430/result.json",
+      "size_bytes": 9852,
+      "crc32": "78fbcad4"
+    },
+    {
+      "path": "jobs/00037_exploration_Case3_wide_1792148253157082430/result.json.checkpoint.json",
+      "size_bytes": 9742,
+      "crc32": "2dc3562f"
+    },
+    {
+      "path": "jobs/00037_exploration_Case3_wide_1792148253157082430/warm.json",
+      "size_bytes": 9860,
+      "crc32": "54f5aa95"
+    },
+    {
+      "path": "jobs/00038_exploration_Case3_baseline_1792148253905970971/result.json",
+      "size_bytes": 9025,
+      "crc32": "06c58924"
+    },
+    {
+      "path": "jobs/00038_exploration_Case3_baseline_1792148253905970971/result.json.checkpoint.json",
+      "size_bytes": 8915,
+      "crc32": "f7e2f0b1"
+    },
+    {
+      "path": "jobs/00038_exploration_Case3_baseline_1792148253905970971/warm.json",
+      "size_bytes": 9037,
+      "crc32": "af50381c"
+    },
+    {
+      "path": "jobs/00039_exploration_Case3_both_1792148254382992359/result.json",
+      "size_bytes": 9803,
+      "crc32": "9ae38359"
+    },
+    {
+      "path": "jobs/00039_exploration_Case3_both_1792148254382992359/result.json.checkpoint.json",
+      "size_bytes": 9693,
+      "crc32": "21c2d15b"
+    },
+    {
+      "path": "jobs/00039_exploration_Case3_both_1792148254382992359/warm.json",
+      "size_bytes": 9794,
+      "crc32": "ef9e8883"
+    },
+    {
+      "path": "jobs/00040_exploration_Case3_regional_1792148847634388563/result.json",
+      "size_bytes": 9872,
+      "crc32": "60c3f74b"
+    },
+    {
+      "path": "jobs/00040_exploration_Case3_regional_1792148847634388563/result.json.checkpoint.json",
+      "size_bytes": 9762,
+      "crc32": "7c81176f"
+    },
+    {
+      "path": "jobs/00040_exploration_Case3_regional_1792148847634388563/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00041_exploration_Case3_balanced_1792148848702584972/result.json",
+      "size_bytes": 9876,
+      "crc32": "578606e4"
+    },
+    {
+      "path": "jobs/00041_exploration_Case3_balanced_1792148848702584972/result.json.checkpoint.json",
+      "size_bytes": 9765,
+      "crc32": "9100e78a"
+    },
+    {
+      "path": "jobs/00041_exploration_Case3_balanced_1792148848702584972/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00042_exploration_Case3_wide_1792148849336336080/result.json",
+      "size_bytes": 9864,
+      "crc32": "3d18f54f"
+    },
+    {
+      "path": "jobs/00042_exploration_Case3_wide_1792148849336336080/result.json.checkpoint.json",
+      "size_bytes": 9754,
+      "crc32": "50ae3690"
+    },
+    {
+      "path": "jobs/00042_exploration_Case3_wide_1792148849336336080/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00043_exploration_Case3_baseline_1792148849875668422/result.json",
+      "size_bytes": 9036,
+      "crc32": "6cdd68e5"
+    },
+    {
+      "path": "jobs/00043_exploration_Case3_baseline_1792148849875668422/result.json.checkpoint.json",
+      "size_bytes": 8927,
+      "crc32": "71597f43"
+    },
+    {
+      "path": "jobs/00043_exploration_Case3_baseline_1792148849875668422/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00044_exploration_Case3_baseline_1792148853243992400/result.json",
+      "size_bytes": 9037,
+      "crc32": "309b14e2"
+    },
+    {
+      "path": "jobs/00044_exploration_Case3_baseline_1792148853243992400/result.json.checkpoint.json",
+      "size_bytes": 8926,
+      "crc32": "3b256eb5"
+    },
+    {
+      "path": "jobs/00044_exploration_Case3_baseline_1792148853243992400/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00045_exploration_Case3_both_1792148853749627475/result.json",
+      "size_bytes": 9795,
+      "crc32": "d5bcae43"
+    },
+    {
+      "path": "jobs/00045_exploration_Case3_both_1792148853749627475/result.json.checkpoint.json",
+      "size_bytes": 9685,
+      "crc32": "e2bfffd4"
+    },
+    {
+      "path": "jobs/00045_exploration_Case3_both_1792148853749627475/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00046_exploration_Case3_both_1792148853989967742/result.json",
+      "size_bytes": 9797,
+      "crc32": "b5d3539b"
+    },
+    {
+      "path": "jobs/00046_exploration_Case3_both_1792148853989967742/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "56736858"
+    },
+    {
+      "path": "jobs/00046_exploration_Case3_both_1792148853989967742/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00047_exploration_Case3_regional_1792148854212949486/result.json",
+      "size_bytes": 9876,
+      "crc32": "689dccc4"
+    },
+    {
+      "path": "jobs/00047_exploration_Case3_regional_1792148854212949486/result.json.checkpoint.json",
+      "size_bytes": 9766,
+      "crc32": "720f3aee"
+    },
+    {
+      "path": "jobs/00047_exploration_Case3_regional_1792148854212949486/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00048_exploration_Case3_balanced_1792148854418364073/result.json",
+      "size_bytes": 9874,
+      "crc32": "b93abc38"
+    },
+    {
+      "path": "jobs/00048_exploration_Case3_balanced_1792148854418364073/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "cdae7788"
+    },
+    {
+      "path": "jobs/00048_exploration_Case3_balanced_1792148854418364073/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00049_exploration_Case3_wide_1792148855213926782/result.json",
+      "size_bytes": 9865,
+      "crc32": "2381d70e"
+    },
+    {
+      "path": "jobs/00049_exploration_Case3_wide_1792148855213926782/result.json.checkpoint.json",
+      "size_bytes": 9755,
+      "crc32": "f30c39b8"
+    },
+    {
+      "path": "jobs/00049_exploration_Case3_wide_1792148855213926782/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00050_exploration_Case3_baseline_1792148855663554775/result.json",
+      "size_bytes": 9032,
+      "crc32": "e610c058"
+    },
+    {
+      "path": "jobs/00050_exploration_Case3_baseline_1792148855663554775/result.json.checkpoint.json",
+      "size_bytes": 8922,
+      "crc32": "44f4dac9"
+    },
+    {
+      "path": "jobs/00050_exploration_Case3_baseline_1792148855663554775/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00051_exploration_Case3_both_1792148855946555080/result.json",
+      "size_bytes": 9794,
+      "crc32": "e09819e4"
+    },
+    {
+      "path": "jobs/00051_exploration_Case3_both_1792148855946555080/result.json.checkpoint.json",
+      "size_bytes": 9684,
+      "crc32": "74972c8a"
+    },
+    {
+      "path": "jobs/00051_exploration_Case3_both_1792148855946555080/warm.json",
+      "size_bytes": 4269,
+      "crc32": "9c1425bb"
+    },
+    {
+      "path": "jobs/00052_exploration_Case3_regional_1792149449734735262/result.json",
+      "size_bytes": 9871,
+      "crc32": "892e44f8"
+    },
+    {
+      "path": "jobs/00052_exploration_Case3_regional_1792149449734735262/result.json.checkpoint.json",
+      "size_bytes": 9761,
+      "crc32": "7e6e101d"
+    },
+    {
+      "path": "jobs/00052_exploration_Case3_regional_1792149449734735262/warm.json",
+      "size_bytes": 9872,
+      "crc32": "60c3f74b"
+    },
+    {
+      "path": "jobs/00053_exploration_Case3_balanced_1792149450215835001/result.json",
+      "size_bytes": 9873,
+      "crc32": "9394676c"
+    },
+    {
+      "path": "jobs/00053_exploration_Case3_balanced_1792149450215835001/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "28c619b6"
+    },
+    {
+      "path": "jobs/00053_exploration_Case3_balanced_1792149450215835001/warm.json",
+      "size_bytes": 9876,
+      "crc32": "578606e4"
+    },
+    {
+      "path": "jobs/00054_exploration_Case3_wide_1792149450454850896/result.json",
+      "size_bytes": 9863,
+      "crc32": "90f039a3"
+    },
+    {
+      "path": "jobs/00054_exploration_Case3_wide_1792149450454850896/result.json.checkpoint.json",
+      "size_bytes": 9753,
+      "crc32": "9a29a01b"
+    },
+    {
+      "path": "jobs/00054_exploration_Case3_wide_1792149450454850896/warm.json",
+      "size_bytes": 9864,
+      "crc32": "3d18f54f"
+    },
+    {
+      "path": "jobs/00055_exploration_Case3_baseline_1792149451193058962/result.json",
+      "size_bytes": 9038,
+      "crc32": "e3ee14de"
+    },
+    {
+      "path": "jobs/00055_exploration_Case3_baseline_1792149451193058962/result.json.checkpoint.json",
+      "size_bytes": 8928,
+      "crc32": "08a7696f"
+    },
+    {
+      "path": "jobs/00055_exploration_Case3_baseline_1792149451193058962/warm.json",
+      "size_bytes": 9036,
+      "crc32": "6cdd68e5"
+    },
+    {
+      "path": "jobs/00056_exploration_Case3_baseline_1792149455555928162/result.json",
+      "size_bytes": 9039,
+      "crc32": "a2ed4f26"
+    },
+    {
+      "path": "jobs/00056_exploration_Case3_baseline_1792149455555928162/result.json.checkpoint.json",
+      "size_bytes": 8929,
+      "crc32": "bb5ac3e6"
+    },
+    {
+      "path": "jobs/00056_exploration_Case3_baseline_1792149455555928162/warm.json",
+      "size_bytes": 9037,
+      "crc32": "309b14e2"
+    },
+    {
+      "path": "jobs/00057_exploration_Case3_both_1792149456124815079/result.json",
+      "size_bytes": 9799,
+      "crc32": "69d942a1"
+    },
+    {
+      "path": "jobs/00057_exploration_Case3_both_1792149456124815079/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "88a7af57"
+    },
+    {
+      "path": "jobs/00057_exploration_Case3_both_1792149456124815079/warm.json",
+      "size_bytes": 9795,
+      "crc32": "d5bcae43"
+    },
+    {
+      "path": "jobs/00058_exploration_Case3_both_1792149456322558436/result.json",
+      "size_bytes": 9799,
+      "crc32": "6f049363"
+    },
+    {
+      "path": "jobs/00058_exploration_Case3_both_1792149456322558436/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "f3c5fc62"
+    },
+    {
+      "path": "jobs/00058_exploration_Case3_both_1792149456322558436/warm.json",
+      "size_bytes": 9797,
+      "crc32": "b5d3539b"
+    },
+    {
+      "path": "jobs/00059_exploration_Case3_regional_1792149456526219863/result.json",
+      "size_bytes": 9874,
+      "crc32": "f1628187"
+    },
+    {
+      "path": "jobs/00059_exploration_Case3_regional_1792149456526219863/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "8233a3f2"
+    },
+    {
+      "path": "jobs/00059_exploration_Case3_regional_1792149456526219863/warm.json",
+      "size_bytes": 9876,
+      "crc32": "689dccc4"
+    },
+    {
+      "path": "jobs/00060_exploration_Case3_balanced_1792149456728927590/result.json",
+      "size_bytes": 9872,
+      "crc32": "afc532e0"
+    },
+    {
+      "path": "jobs/00060_exploration_Case3_balanced_1792149456728927590/result.json.checkpoint.json",
+      "size_bytes": 9762,
+      "crc32": "45f88602"
+    },
+    {
+      "path": "jobs/00060_exploration_Case3_balanced_1792149456728927590/warm.json",
+      "size_bytes": 9874,
+      "crc32": "b93abc38"
+    },
+    {
+      "path": "jobs/00061_exploration_Case3_wide_1792149456923035421/result.json",
+      "size_bytes": 9865,
+      "crc32": "b0d40a85"
+    },
+    {
+      "path": "jobs/00061_exploration_Case3_wide_1792149456923035421/result.json.checkpoint.json",
+      "size_bytes": 9755,
+      "crc32": "e34aa69c"
+    },
+    {
+      "path": "jobs/00061_exploration_Case3_wide_1792149456923035421/warm.json",
+      "size_bytes": 9865,
+      "crc32": "2381d70e"
+    },
+    {
+      "path": "jobs/00062_exploration_Case3_baseline_1792149457676004348/result.json",
+      "size_bytes": 9030,
+      "crc32": "8518e484"
+    },
+    {
+      "path": "jobs/00062_exploration_Case3_baseline_1792149457676004348/result.json.checkpoint.json",
+      "size_bytes": 8920,
+      "crc32": "bdfdf201"
+    },
+    {
+      "path": "jobs/00062_exploration_Case3_baseline_1792149457676004348/warm.json",
+      "size_bytes": 9032,
+      "crc32": "e610c058"
+    },
+    {
+      "path": "jobs/00063_exploration_Case3_both_1792149458122927402/result.json",
+      "size_bytes": 9799,
+      "crc32": "49547e05"
+    },
+    {
+      "path": "jobs/00063_exploration_Case3_both_1792149458122927402/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "3f5d14a4"
+    },
+    {
+      "path": "jobs/00063_exploration_Case3_both_1792149458122927402/warm.json",
+      "size_bytes": 9794,
+      "crc32": "e09819e4"
+    },
+    {
+      "path": "jobs/00064_exploration_Case3_regional_1792150050901726149/result.json",
+      "size_bytes": 9870,
+      "crc32": "283c5bed"
+    },
+    {
+      "path": "jobs/00064_exploration_Case3_regional_1792150050901726149/result.json.checkpoint.json",
+      "size_bytes": 9760,
+      "crc32": "8ed5365d"
+    },
+    {
+      "path": "jobs/00064_exploration_Case3_regional_1792150050901726149/warm.json",
+      "size_bytes": 9871,
+      "crc32": "892e44f8"
+    },
+    {
+      "path": "jobs/00065_exploration_Case3_balanced_1792150051364007509/result.json",
+      "size_bytes": 10034,
+      "crc32": "06a26dad"
+    },
+    {
+      "path": "jobs/00065_exploration_Case3_balanced_1792150051364007509/result.json.checkpoint.json",
+      "size_bytes": 9924,
+      "crc32": "0d050c31"
+    },
+    {
+      "path": "jobs/00065_exploration_Case3_balanced_1792150051364007509/warm.json",
+      "size_bytes": 9873,
+      "crc32": "9394676c"
+    },
+    {
+      "path": "jobs/00066_exploration_Case3_wide_1792150051565318012/result.json",
+      "size_bytes": 9861,
+      "crc32": "88fb25a1"
+    },
+    {
+      "path": "jobs/00066_exploration_Case3_wide_1792150051565318012/result.json.checkpoint.json",
+      "size_bytes": 9751,
+      "crc32": "7360d1c0"
+    },
+    {
+      "path": "jobs/00066_exploration_Case3_wide_1792150051565318012/warm.json",
+      "size_bytes": 9863,
+      "crc32": "90f039a3"
+    },
+    {
+      "path": "jobs/00067_exploration_Case3_baseline_1792150052318895584/result.json",
+      "size_bytes": 9036,
+      "crc32": "2b3e1662"
+    },
+    {
+      "path": "jobs/00067_exploration_Case3_baseline_1792150052318895584/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "f824f565"
+    },
+    {
+      "path": "jobs/00067_exploration_Case3_baseline_1792150052318895584/warm.json",
+      "size_bytes": 9038,
+      "crc32": "e3ee14de"
+    },
+    {
+      "path": "jobs/00068_exploration_Case3_baseline_1792150056939381666/result.json",
+      "size_bytes": 9030,
+      "crc32": "aeb6e46c"
+    },
+    {
+      "path": "jobs/00068_exploration_Case3_baseline_1792150056939381666/result.json.checkpoint.json",
+      "size_bytes": 8920,
+      "crc32": "0de7b55d"
+    },
+    {
+      "path": "jobs/00068_exploration_Case3_baseline_1792150056939381666/warm.json",
+      "size_bytes": 9039,
+      "crc32": "a2ed4f26"
+    },
+    {
+      "path": "jobs/00069_exploration_Case3_both_1792150057536533978/result.json",
+      "size_bytes": 9794,
+      "crc32": "7cec4e78"
+    },
+    {
+      "path": "jobs/00069_exploration_Case3_both_1792150057536533978/result.json.checkpoint.json",
+      "size_bytes": 9684,
+      "crc32": "ba4bfe92"
+    },
+    {
+      "path": "jobs/00069_exploration_Case3_both_1792150057536533978/warm.json",
+      "size_bytes": 9799,
+      "crc32": "69d942a1"
+    },
+    {
+      "path": "jobs/00070_exploration_Case3_both_1792150057739198175/result.json",
+      "size_bytes": 9797,
+      "crc32": "6e1ecf7d"
+    },
+    {
+      "path": "jobs/00070_exploration_Case3_both_1792150057739198175/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "d3a74220"
+    },
+    {
+      "path": "jobs/00070_exploration_Case3_both_1792150057739198175/warm.json",
+      "size_bytes": 9799,
+      "crc32": "6f049363"
+    },
+    {
+      "path": "jobs/00071_exploration_Case3_regional_1792150057935554158/result.json",
+      "size_bytes": 9869,
+      "crc32": "1bec27c0"
+    },
+    {
+      "path": "jobs/00071_exploration_Case3_regional_1792150057935554158/result.json.checkpoint.json",
+      "size_bytes": 9759,
+      "crc32": "82e9687e"
+    },
+    {
+      "path": "jobs/00071_exploration_Case3_regional_1792150057935554158/warm.json",
+      "size_bytes": 9874,
+      "crc32": "f1628187"
+    },
+    {
+      "path": "jobs/00072_exploration_Case3_balanced_1792150058782764157/result.json",
+      "size_bytes": 9867,
+      "crc32": "890f1ab3"
+    },
+    {
+      "path": "jobs/00072_exploration_Case3_balanced_1792150058782764157/result.json.checkpoint.json",
+      "size_bytes": 9758,
+      "crc32": "2cd8b96e"
+    },
+    {
+      "path": "jobs/00072_exploration_Case3_balanced_1792150058782764157/warm.json",
+      "size_bytes": 9872,
+      "crc32": "afc532e0"
+    },
+    {
+      "path": "jobs/00073_exploration_Case3_wide_1792150059297799158/result.json",
+      "size_bytes": 9865,
+      "crc32": "66b88230"
+    },
+    {
+      "path": "jobs/00073_exploration_Case3_wide_1792150059297799158/result.json.checkpoint.json",
+      "size_bytes": 9755,
+      "crc32": "7c4715b6"
+    },
+    {
+      "path": "jobs/00073_exploration_Case3_wide_1792150059297799158/warm.json",
+      "size_bytes": 9865,
+      "crc32": "b0d40a85"
+    },
+    {
+      "path": "jobs/00074_exploration_Case3_baseline_1792150059493148922/result.json",
+      "size_bytes": 9030,
+      "crc32": "22259cc5"
+    },
+    {
+      "path": "jobs/00074_exploration_Case3_baseline_1792150059493148922/result.json.checkpoint.json",
+      "size_bytes": 8919,
+      "crc32": "8d940197"
+    },
+    {
+      "path": "jobs/00074_exploration_Case3_baseline_1792150059493148922/warm.json",
+      "size_bytes": 9030,
+      "crc32": "8518e484"
+    },
+    {
+      "path": "jobs/00075_exploration_Case3_both_1792150059727513329/result.json",
+      "size_bytes": 9798,
+      "crc32": "87a30ad2"
+    },
+    {
+      "path": "jobs/00075_exploration_Case3_both_1792150059727513329/result.json.checkpoint.json",
+      "size_bytes": 9688,
+      "crc32": "d7246d48"
+    },
+    {
+      "path": "jobs/00075_exploration_Case3_both_1792150059727513329/warm.json",
+      "size_bytes": 9799,
+      "crc32": "49547e05"
+    },
+    {
+      "path": "jobs/00076_exploration_Case3_regional_1792150651888701819/result.json",
+      "size_bytes": 9871,
+      "crc32": "90b1515f"
+    },
+    {
+      "path": "jobs/00076_exploration_Case3_regional_1792150651888701819/result.json.checkpoint.json",
+      "size_bytes": 9761,
+      "crc32": "6a238173"
+    },
+    {
+      "path": "jobs/00076_exploration_Case3_regional_1792150651888701819/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00077_exploration_Case3_balanced_1792150652376608609/result.json",
+      "size_bytes": 9874,
+      "crc32": "e6d2ba5f"
+    },
+    {
+      "path": "jobs/00077_exploration_Case3_balanced_1792150652376608609/result.json.checkpoint.json",
+      "size_bytes": 9765,
+      "crc32": "efddbdeb"
+    },
+    {
+      "path": "jobs/00077_exploration_Case3_balanced_1792150652376608609/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00078_exploration_Case3_wide_1792150652616186930/result.json",
+      "size_bytes": 9863,
+      "crc32": "71fc7684"
+    },
+    {
+      "path": "jobs/00078_exploration_Case3_wide_1792150652616186930/result.json.checkpoint.json",
+      "size_bytes": 9753,
+      "crc32": "bc064b37"
+    },
+    {
+      "path": "jobs/00078_exploration_Case3_wide_1792150652616186930/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00079_exploration_Case3_baseline_1792150653398397608/result.json",
+      "size_bytes": 9028,
+      "crc32": "b529a88d"
+    },
+    {
+      "path": "jobs/00079_exploration_Case3_baseline_1792150653398397608/result.json.checkpoint.json",
+      "size_bytes": 8918,
+      "crc32": "7c581545"
+    },
+    {
+      "path": "jobs/00079_exploration_Case3_baseline_1792150653398397608/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00080_exploration_Case3_baseline_1792150657767131120/result.json",
+      "size_bytes": 9035,
+      "crc32": "000570c0"
+    },
+    {
+      "path": "jobs/00080_exploration_Case3_baseline_1792150657767131120/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "d43108ff"
+    },
+    {
+      "path": "jobs/00080_exploration_Case3_baseline_1792150657767131120/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00081_exploration_Case3_both_1792150658849428037/result.json",
+      "size_bytes": 9796,
+      "crc32": "290f9602"
+    },
+    {
+      "path": "jobs/00081_exploration_Case3_both_1792150658849428037/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "98a27bce"
+    },
+    {
+      "path": "jobs/00081_exploration_Case3_both_1792150658849428037/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00082_exploration_Case3_both_1792150659290240153/result.json",
+      "size_bytes": 9793,
+      "crc32": "7ed542ea"
+    },
+    {
+      "path": "jobs/00082_exploration_Case3_both_1792150659290240153/result.json.checkpoint.json",
+      "size_bytes": 9685,
+      "crc32": "ece6e45e"
+    },
+    {
+      "path": "jobs/00082_exploration_Case3_both_1792150659290240153/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00083_exploration_Case3_regional_1792150659878436699/result.json",
+      "size_bytes": 9876,
+      "crc32": "f6698191"
+    },
+    {
+      "path": "jobs/00083_exploration_Case3_regional_1792150659878436699/result.json.checkpoint.json",
+      "size_bytes": 9766,
+      "crc32": "09bee706"
+    },
+    {
+      "path": "jobs/00083_exploration_Case3_regional_1792150659878436699/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00084_exploration_Case3_balanced_1792150660633140772/result.json",
+      "size_bytes": 9871,
+      "crc32": "2abba991"
+    },
+    {
+      "path": "jobs/00084_exploration_Case3_balanced_1792150660633140772/result.json.checkpoint.json",
+      "size_bytes": 9761,
+      "crc32": "c3c9bfd0"
+    },
+    {
+      "path": "jobs/00084_exploration_Case3_balanced_1792150660633140772/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00085_exploration_Case3_wide_1792150661093536525/result.json",
+      "size_bytes": 9865,
+      "crc32": "cee04889"
+    },
+    {
+      "path": "jobs/00085_exploration_Case3_wide_1792150661093536525/result.json.checkpoint.json",
+      "size_bytes": 9754,
+      "crc32": "66866e82"
+    },
+    {
+      "path": "jobs/00085_exploration_Case3_wide_1792150661093536525/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00086_exploration_Case3_baseline_1792150661299473490/result.json",
+      "size_bytes": 9030,
+      "crc32": "565fc99c"
+    },
+    {
+      "path": "jobs/00086_exploration_Case3_baseline_1792150661299473490/result.json.checkpoint.json",
+      "size_bytes": 8920,
+      "crc32": "87120b1e"
+    },
+    {
+      "path": "jobs/00086_exploration_Case3_baseline_1792150661299473490/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00087_exploration_Case3_both_1792150661519460785/result.json",
+      "size_bytes": 9801,
+      "crc32": "e0e99884"
+    },
+    {
+      "path": "jobs/00087_exploration_Case3_both_1792150661519460785/result.json.checkpoint.json",
+      "size_bytes": 9691,
+      "crc32": "1c09a7bd"
+    },
+    {
+      "path": "jobs/00087_exploration_Case3_both_1792150661519460785/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00088_exploration_Case3_regional_1792151252680749511/result.json",
+      "size_bytes": 9875,
+      "crc32": "00ff2e73"
+    },
+    {
+      "path": "jobs/00088_exploration_Case3_regional_1792151252680749511/result.json.checkpoint.json",
+      "size_bytes": 9765,
+      "crc32": "6e279092"
+    },
+    {
+      "path": "jobs/00088_exploration_Case3_regional_1792151252680749511/warm.json",
+      "size_bytes": 9871,
+      "crc32": "90b1515f"
+    },
+    {
+      "path": "jobs/00089_exploration_Case3_balanced_1792151253276015800/result.json",
+      "size_bytes": 9879,
+      "crc32": "1f05c9f9"
+    },
+    {
+      "path": "jobs/00089_exploration_Case3_balanced_1792151253276015800/result.json.checkpoint.json",
+      "size_bytes": 9769,
+      "crc32": "b0769ba1"
+    },
+    {
+      "path": "jobs/00089_exploration_Case3_balanced_1792151253276015800/warm.json",
+      "size_bytes": 9874,
+      "crc32": "e6d2ba5f"
+    },
+    {
+      "path": "jobs/00090_exploration_Case3_wide_1792151256668176891/result.json",
+      "size_bytes": 9862,
+      "crc32": "949903ad"
+    },
+    {
+      "path": "jobs/00090_exploration_Case3_wide_1792151256668176891/result.json.checkpoint.json",
+      "size_bytes": 9753,
+      "crc32": "d86b79ab"
+    },
+    {
+      "path": "jobs/00090_exploration_Case3_wide_1792151256668176891/warm.json",
+      "size_bytes": 9863,
+      "crc32": "71fc7684"
+    },
+    {
+      "path": "jobs/00091_exploration_Case3_baseline_1792151257103305565/result.json",
+      "size_bytes": 9032,
+      "crc32": "8a523e31"
+    },
+    {
+      "path": "jobs/00091_exploration_Case3_baseline_1792151257103305565/result.json.checkpoint.json",
+      "size_bytes": 8922,
+      "crc32": "8a0c847e"
+    },
+    {
+      "path": "jobs/00091_exploration_Case3_baseline_1792151257103305565/warm.json",
+      "size_bytes": 9028,
+      "crc32": "b529a88d"
+    },
+    {
+      "path": "jobs/00092_exploration_Case3_baseline_1792151261424047561/result.json",
+      "size_bytes": 9035,
+      "crc32": "8af0a99d"
+    },
+    {
+      "path": "jobs/00092_exploration_Case3_baseline_1792151261424047561/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "f5c6d2a6"
+    },
+    {
+      "path": "jobs/00092_exploration_Case3_baseline_1792151261424047561/warm.json",
+      "size_bytes": 9035,
+      "crc32": "000570c0"
+    },
+    {
+      "path": "jobs/00093_exploration_Case3_both_1792151262064473820/result.json",
+      "size_bytes": 9794,
+      "crc32": "d7ce5a4a"
+    },
+    {
+      "path": "jobs/00093_exploration_Case3_both_1792151262064473820/result.json.checkpoint.json",
+      "size_bytes": 9685,
+      "crc32": "d808089a"
+    },
+    {
+      "path": "jobs/00093_exploration_Case3_both_1792151262064473820/warm.json",
+      "size_bytes": 9796,
+      "crc32": "290f9602"
+    },
+    {
+      "path": "jobs/00094_exploration_Case3_both_1792151262271786275/result.json",
+      "size_bytes": 9796,
+      "crc32": "4592b955"
+    },
+    {
+      "path": "jobs/00094_exploration_Case3_both_1792151262271786275/result.json.checkpoint.json",
+      "size_bytes": 9686,
+      "crc32": "bf3ff63c"
+    },
+    {
+      "path": "jobs/00094_exploration_Case3_both_1792151262271786275/warm.json",
+      "size_bytes": 9793,
+      "crc32": "7ed542ea"
+    },
+    {
+      "path": "jobs/00095_exploration_Case3_regional_1792151262490155186/result.json",
+      "size_bytes": 9883,
+      "crc32": "d6958f8a"
+    },
+    {
+      "path": "jobs/00095_exploration_Case3_regional_1792151262490155186/result.json.checkpoint.json",
+      "size_bytes": 9774,
+      "crc32": "653e8fbf"
+    },
+    {
+      "path": "jobs/00095_exploration_Case3_regional_1792151262490155186/warm.json",
+      "size_bytes": 9876,
+      "crc32": "f6698191"
+    },
+    {
+      "path": "jobs/00096_exploration_Case3_balanced_1792151262701521443/result.json",
+      "size_bytes": 9868,
+      "crc32": "fb7fd98f"
+    },
+    {
+      "path": "jobs/00096_exploration_Case3_balanced_1792151262701521443/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "58870fd5"
+    },
+    {
+      "path": "jobs/00096_exploration_Case3_balanced_1792151262701521443/warm.json",
+      "size_bytes": 9871,
+      "crc32": "2abba991"
+    },
+    {
+      "path": "jobs/00097_exploration_Case3_wide_1792151262904777498/result.json",
+      "size_bytes": 9866,
+      "crc32": "8a054645"
+    },
+    {
+      "path": "jobs/00097_exploration_Case3_wide_1792151262904777498/result.json.checkpoint.json",
+      "size_bytes": 9758,
+      "crc32": "b022eb18"
+    },
+    {
+      "path": "jobs/00097_exploration_Case3_wide_1792151262904777498/warm.json",
+      "size_bytes": 9865,
+      "crc32": "cee04889"
+    },
+    {
+      "path": "jobs/00098_exploration_Case3_baseline_1792151263714068872/result.json",
+      "size_bytes": 9033,
+      "crc32": "fb7e10bd"
+    },
+    {
+      "path": "jobs/00098_exploration_Case3_baseline_1792151263714068872/result.json.checkpoint.json",
+      "size_bytes": 8922,
+      "crc32": "35719bd5"
+    },
+    {
+      "path": "jobs/00098_exploration_Case3_baseline_1792151263714068872/warm.json",
+      "size_bytes": 9030,
+      "crc32": "565fc99c"
+    },
+    {
+      "path": "jobs/00099_exploration_Case3_both_1792151264333772225/result.json",
+      "size_bytes": 9799,
+      "crc32": "a0c1020e"
+    },
+    {
+      "path": "jobs/00099_exploration_Case3_both_1792151264333772225/result.json.checkpoint.json",
+      "size_bytes": 9690,
+      "crc32": "50ee5aac"
+    },
+    {
+      "path": "jobs/00099_exploration_Case3_both_1792151264333772225/warm.json",
+      "size_bytes": 9801,
+      "crc32": "e0e99884"
+    },
+    {
+      "path": "jobs/00100_exploration_Case3_regional_1792151853210726682/result.json",
+      "size_bytes": 9871,
+      "crc32": "92ac73dc"
+    },
+    {
+      "path": "jobs/00100_exploration_Case3_regional_1792151853210726682/result.json.checkpoint.json",
+      "size_bytes": 9761,
+      "crc32": "3ca156fb"
+    },
+    {
+      "path": "jobs/00100_exploration_Case3_regional_1792151853210726682/warm.json",
+      "size_bytes": 9875,
+      "crc32": "00ff2e73"
+    },
+    {
+      "path": "jobs/00101_exploration_Case3_balanced_1792151856886378200/result.json",
+      "size_bytes": 9877,
+      "crc32": "09aa5d95"
+    },
+    {
+      "path": "jobs/00101_exploration_Case3_balanced_1792151856886378200/result.json.checkpoint.json",
+      "size_bytes": 9767,
+      "crc32": "3fe2c404"
+    },
+    {
+      "path": "jobs/00101_exploration_Case3_balanced_1792151856886378200/warm.json",
+      "size_bytes": 9879,
+      "crc32": "1f05c9f9"
+    },
+    {
+      "path": "jobs/00102_exploration_Case3_wide_1792151857937949404/result.json",
+      "size_bytes": 9866,
+      "crc32": "92dd5f0c"
+    },
+    {
+      "path": "jobs/00102_exploration_Case3_wide_1792151857937949404/result.json.checkpoint.json",
+      "size_bytes": 9756,
+      "crc32": "bf3e2572"
+    },
+    {
+      "path": "jobs/00102_exploration_Case3_wide_1792151857937949404/warm.json",
+      "size_bytes": 9862,
+      "crc32": "949903ad"
+    },
+    {
+      "path": "jobs/00103_exploration_Case3_baseline_1792151858403374614/result.json",
+      "size_bytes": 9038,
+      "crc32": "49de1b0b"
+    },
+    {
+      "path": "jobs/00103_exploration_Case3_baseline_1792151858403374614/result.json.checkpoint.json",
+      "size_bytes": 8928,
+      "crc32": "23dcf21b"
+    },
+    {
+      "path": "jobs/00103_exploration_Case3_baseline_1792151858403374614/warm.json",
+      "size_bytes": 9032,
+      "crc32": "8a523e31"
+    },
+    {
+      "path": "jobs/00104_exploration_Case3_baseline_1792151862442006306/result.json",
+      "size_bytes": 9031,
+      "crc32": "fcf36448"
+    },
+    {
+      "path": "jobs/00104_exploration_Case3_baseline_1792151862442006306/result.json.checkpoint.json",
+      "size_bytes": 8922,
+      "crc32": "88c7c437"
+    },
+    {
+      "path": "jobs/00104_exploration_Case3_baseline_1792151862442006306/warm.json",
+      "size_bytes": 9035,
+      "crc32": "8af0a99d"
+    },
+    {
+      "path": "jobs/00105_exploration_Case3_both_1792151862928209022/result.json",
+      "size_bytes": 9802,
+      "crc32": "c1dc607d"
+    },
+    {
+      "path": "jobs/00105_exploration_Case3_both_1792151862928209022/result.json.checkpoint.json",
+      "size_bytes": 9692,
+      "crc32": "a50054ab"
+    },
+    {
+      "path": "jobs/00105_exploration_Case3_both_1792151862928209022/warm.json",
+      "size_bytes": 9794,
+      "crc32": "d7ce5a4a"
+    },
+    {
+      "path": "jobs/00106_exploration_Case3_both_1792151863712540117/result.json",
+      "size_bytes": 9798,
+      "crc32": "54db5461"
+    },
+    {
+      "path": "jobs/00106_exploration_Case3_both_1792151863712540117/result.json.checkpoint.json",
+      "size_bytes": 9688,
+      "crc32": "0cf5bb37"
+    },
+    {
+      "path": "jobs/00106_exploration_Case3_both_1792151863712540117/warm.json",
+      "size_bytes": 9796,
+      "crc32": "4592b955"
+    },
+    {
+      "path": "jobs/00107_exploration_Case3_regional_1792151864201486000/result.json",
+      "size_bytes": 9873,
+      "crc32": "d8d37e71"
+    },
+    {
+      "path": "jobs/00107_exploration_Case3_regional_1792151864201486000/result.json.checkpoint.json",
+      "size_bytes": 9763,
+      "crc32": "7a7b5aac"
+    },
+    {
+      "path": "jobs/00107_exploration_Case3_regional_1792151864201486000/warm.json",
+      "size_bytes": 9883,
+      "crc32": "d6958f8a"
+    },
+    {
+      "path": "jobs/00108_exploration_Case3_balanced_1792151864451775683/result.json",
+      "size_bytes": 9866,
+      "crc32": "04c4f6c9"
+    },
+    {
+      "path": "jobs/00108_exploration_Case3_balanced_1792151864451775683/result.json.checkpoint.json",
+      "size_bytes": 9756,
+      "crc32": "e17f9289"
+    },
+    {
+      "path": "jobs/00108_exploration_Case3_balanced_1792151864451775683/warm.json",
+      "size_bytes": 9868,
+      "crc32": "fb7fd98f"
+    },
+    {
+      "path": "jobs/00109_exploration_Case3_wide_1792151864697894162/result.json",
+      "size_bytes": 9859,
+      "crc32": "85a65f32"
+    },
+    {
+      "path": "jobs/00109_exploration_Case3_wide_1792151864697894162/result.json.checkpoint.json",
+      "size_bytes": 9749,
+      "crc32": "9f043bad"
+    },
+    {
+      "path": "jobs/00109_exploration_Case3_wide_1792151864697894162/warm.json",
+      "size_bytes": 9866,
+      "crc32": "8a054645"
+    },
+    {
+      "path": "jobs/00110_exploration_Case3_baseline_1792151865594674066/result.json",
+      "size_bytes": 9036,
+      "crc32": "7d80377e"
+    },
+    {
+      "path": "jobs/00110_exploration_Case3_baseline_1792151865594674066/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "0b81126f"
+    },
+    {
+      "path": "jobs/00110_exploration_Case3_baseline_1792151865594674066/warm.json",
+      "size_bytes": 9033,
+      "crc32": "fb7e10bd"
+    },
+    {
+      "path": "jobs/00111_exploration_Case3_both_1792151866052431626/result.json",
+      "size_bytes": 9794,
+      "crc32": "b0e48125"
+    },
+    {
+      "path": "jobs/00111_exploration_Case3_both_1792151866052431626/result.json.checkpoint.json",
+      "size_bytes": 9684,
+      "crc32": "e65b548b"
+    },
+    {
+      "path": "jobs/00111_exploration_Case3_both_1792151866052431626/warm.json",
+      "size_bytes": 9799,
+      "crc32": "a0c1020e"
+    },
+    {
+      "path": "jobs/00112_exploration_Case3_regional_1792152454604178260/result.json",
+      "size_bytes": 9874,
+      "crc32": "19484c5d"
+    },
+    {
+      "path": "jobs/00112_exploration_Case3_regional_1792152454604178260/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "0e8597b9"
+    },
+    {
+      "path": "jobs/00112_exploration_Case3_regional_1792152454604178260/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00113_exploration_Case3_balanced_1792152460216584616/result.json",
+      "size_bytes": 9878,
+      "crc32": "bcb210c3"
+    },
+    {
+      "path": "jobs/00113_exploration_Case3_balanced_1792152460216584616/result.json.checkpoint.json",
+      "size_bytes": 9768,
+      "crc32": "356d811f"
+    },
+    {
+      "path": "jobs/00113_exploration_Case3_balanced_1792152460216584616/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00114_exploration_Case3_wide_1792152460683984850/result.json",
+      "size_bytes": 9860,
+      "crc32": "f987f80e"
+    },
+    {
+      "path": "jobs/00114_exploration_Case3_wide_1792152460683984850/result.json.checkpoint.json",
+      "size_bytes": 9750,
+      "crc32": "3a7906de"
+    },
+    {
+      "path": "jobs/00114_exploration_Case3_wide_1792152460683984850/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00115_exploration_Case3_baseline_1792152460941983094/result.json",
+      "size_bytes": 9035,
+      "crc32": "10aa6830"
+    },
+    {
+      "path": "jobs/00115_exploration_Case3_baseline_1792152460941983094/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "19298e7e"
+    },
+    {
+      "path": "jobs/00115_exploration_Case3_baseline_1792152460941983094/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00116_exploration_Case3_baseline_1792152465684727557/result.json",
+      "size_bytes": 9032,
+      "crc32": "912d73be"
+    },
+    {
+      "path": "jobs/00116_exploration_Case3_baseline_1792152465684727557/result.json.checkpoint.json",
+      "size_bytes": 8922,
+      "crc32": "75d47c75"
+    },
+    {
+      "path": "jobs/00116_exploration_Case3_baseline_1792152465684727557/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00117_exploration_Case3_both_1792152466276269643/result.json",
+      "size_bytes": 9802,
+      "crc32": "75dc8c0d"
+    },
+    {
+      "path": "jobs/00117_exploration_Case3_both_1792152466276269643/result.json.checkpoint.json",
+      "size_bytes": 9692,
+      "crc32": "454f0e52"
+    },
+    {
+      "path": "jobs/00117_exploration_Case3_both_1792152466276269643/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00118_exploration_Case3_both_1792152466531221642/result.json",
+      "size_bytes": 9795,
+      "crc32": "6f5e03bc"
+    },
+    {
+      "path": "jobs/00118_exploration_Case3_both_1792152466531221642/result.json.checkpoint.json",
+      "size_bytes": 9685,
+      "crc32": "5932874f"
+    },
+    {
+      "path": "jobs/00118_exploration_Case3_both_1792152466531221642/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00119_exploration_Case3_regional_1792152466804301651/result.json",
+      "size_bytes": 9883,
+      "crc32": "1c7b005a"
+    },
+    {
+      "path": "jobs/00119_exploration_Case3_regional_1792152466804301651/result.json.checkpoint.json",
+      "size_bytes": 9773,
+      "crc32": "04fe4a8f"
+    },
+    {
+      "path": "jobs/00119_exploration_Case3_regional_1792152466804301651/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00120_exploration_Case3_balanced_1792152467073543945/result.json",
+      "size_bytes": 9874,
+      "crc32": "8f4f1d0f"
+    },
+    {
+      "path": "jobs/00120_exploration_Case3_balanced_1792152467073543945/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "796f2342"
+    },
+    {
+      "path": "jobs/00120_exploration_Case3_balanced_1792152467073543945/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00121_exploration_Case3_wide_1792152467289417281/result.json",
+      "size_bytes": 9868,
+      "crc32": "30810c0b"
+    },
+    {
+      "path": "jobs/00121_exploration_Case3_wide_1792152467289417281/result.json.checkpoint.json",
+      "size_bytes": 9758,
+      "crc32": "f0b49eff"
+    },
+    {
+      "path": "jobs/00121_exploration_Case3_wide_1792152467289417281/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00122_exploration_Case3_baseline_1792152468078492188/result.json",
+      "size_bytes": 9037,
+      "crc32": "ca0580ac"
+    },
+    {
+      "path": "jobs/00122_exploration_Case3_baseline_1792152468078492188/result.json.checkpoint.json",
+      "size_bytes": 8927,
+      "crc32": "ae3e7e32"
+    },
+    {
+      "path": "jobs/00122_exploration_Case3_baseline_1792152468078492188/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00123_exploration_Case3_both_1792152468561377963/result.json",
+      "size_bytes": 9801,
+      "crc32": "9f5593fb"
+    },
+    {
+      "path": "jobs/00123_exploration_Case3_both_1792152468561377963/result.json.checkpoint.json",
+      "size_bytes": 9691,
+      "crc32": "59c9f5ae"
+    },
+    {
+      "path": "jobs/00123_exploration_Case3_both_1792152468561377963/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00124_exploration_Case3_regional_1792153054917950990/result.json",
+      "size_bytes": 9866,
+      "crc32": "f440359e"
+    },
+    {
+      "path": "jobs/00124_exploration_Case3_regional_1792153054917950990/result.json.checkpoint.json",
+      "size_bytes": 9756,
+      "crc32": "fb3c5b94"
+    },
+    {
+      "path": "jobs/00124_exploration_Case3_regional_1792153054917950990/warm.json",
+      "size_bytes": 9874,
+      "crc32": "19484c5d"
+    },
+    {
+      "path": "jobs/00125_exploration_Case3_balanced_1792153063812429415/result.json",
+      "size_bytes": 9883,
+      "crc32": "4f0b28c5"
+    },
+    {
+      "path": "jobs/00125_exploration_Case3_balanced_1792153063812429415/result.json.checkpoint.json",
+      "size_bytes": 9773,
+      "crc32": "ebe8d3f9"
+    },
+    {
+      "path": "jobs/00125_exploration_Case3_balanced_1792153063812429415/warm.json",
+      "size_bytes": 9878,
+      "crc32": "bcb210c3"
+    },
+    {
+      "path": "jobs/00126_exploration_Case3_wide_1792153064254349234/result.json",
+      "size_bytes": 9866,
+      "crc32": "afb60747"
+    },
+    {
+      "path": "jobs/00126_exploration_Case3_wide_1792153064254349234/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "ef31d73d"
+    },
+    {
+      "path": "jobs/00126_exploration_Case3_wide_1792153064254349234/warm.json",
+      "size_bytes": 9860,
+      "crc32": "f987f80e"
+    },
+    {
+      "path": "jobs/00127_exploration_Case3_baseline_1792153064467190044/result.json",
+      "size_bytes": 9038,
+      "crc32": "86464b57"
+    },
+    {
+      "path": "jobs/00127_exploration_Case3_baseline_1792153064467190044/result.json.checkpoint.json",
+      "size_bytes": 8928,
+      "crc32": "cc3e1c3e"
+    },
+    {
+      "path": "jobs/00127_exploration_Case3_baseline_1792153064467190044/warm.json",
+      "size_bytes": 9035,
+      "crc32": "10aa6830"
+    },
+    {
+      "path": "jobs/00128_exploration_Case3_baseline_1792153069403325341/result.json",
+      "size_bytes": 9033,
+      "crc32": "d7c43e26"
+    },
+    {
+      "path": "jobs/00128_exploration_Case3_baseline_1792153069403325341/result.json.checkpoint.json",
+      "size_bytes": 8923,
+      "crc32": "c861b212"
+    },
+    {
+      "path": "jobs/00128_exploration_Case3_baseline_1792153069403325341/warm.json",
+      "size_bytes": 9032,
+      "crc32": "912d73be"
+    },
+    {
+      "path": "jobs/00129_exploration_Case3_both_1792153069861224055/result.json",
+      "size_bytes": 9803,
+      "crc32": "3a634a0c"
+    },
+    {
+      "path": "jobs/00129_exploration_Case3_both_1792153069861224055/result.json.checkpoint.json",
+      "size_bytes": 9693,
+      "crc32": "d8bdaa8c"
+    },
+    {
+      "path": "jobs/00129_exploration_Case3_both_1792153069861224055/warm.json",
+      "size_bytes": 9802,
+      "crc32": "75dc8c0d"
+    },
+    {
+      "path": "jobs/00130_exploration_Case3_both_1792153070191959663/result.json",
+      "size_bytes": 9794,
+      "crc32": "3118a89a"
+    },
+    {
+      "path": "jobs/00130_exploration_Case3_both_1792153070191959663/result.json.checkpoint.json",
+      "size_bytes": 9685,
+      "crc32": "74ac0d5a"
+    },
+    {
+      "path": "jobs/00130_exploration_Case3_both_1792153070191959663/warm.json",
+      "size_bytes": 9795,
+      "crc32": "6f5e03bc"
+    },
+    {
+      "path": "jobs/00131_exploration_Case3_regional_1792153070804279220/result.json",
+      "size_bytes": 9879,
+      "crc32": "f8d6538f"
+    },
+    {
+      "path": "jobs/00131_exploration_Case3_regional_1792153070804279220/result.json.checkpoint.json",
+      "size_bytes": 9769,
+      "crc32": "fbd9b7b2"
+    },
+    {
+      "path": "jobs/00131_exploration_Case3_regional_1792153070804279220/warm.json",
+      "size_bytes": 9883,
+      "crc32": "1c7b005a"
+    },
+    {
+      "path": "jobs/00132_exploration_Case3_balanced_1792153071087280104/result.json",
+      "size_bytes": 9874,
+      "crc32": "5b0a5604"
+    },
+    {
+      "path": "jobs/00132_exploration_Case3_balanced_1792153071087280104/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "3f73a94c"
+    },
+    {
+      "path": "jobs/00132_exploration_Case3_balanced_1792153071087280104/warm.json",
+      "size_bytes": 9874,
+      "crc32": "8f4f1d0f"
+    },
+    {
+      "path": "jobs/00133_exploration_Case3_wide_1792153071321132278/result.json",
+      "size_bytes": 9866,
+      "crc32": "6884f3bb"
+    },
+    {
+      "path": "jobs/00133_exploration_Case3_wide_1792153071321132278/result.json.checkpoint.json",
+      "size_bytes": 9756,
+      "crc32": "4f571557"
+    },
+    {
+      "path": "jobs/00133_exploration_Case3_wide_1792153071321132278/warm.json",
+      "size_bytes": 9868,
+      "crc32": "30810c0b"
+    },
+    {
+      "path": "jobs/00134_exploration_Case3_baseline_1792153071566462885/result.json",
+      "size_bytes": 9031,
+      "crc32": "2df4b5a0"
+    },
+    {
+      "path": "jobs/00134_exploration_Case3_baseline_1792153071566462885/result.json.checkpoint.json",
+      "size_bytes": 8921,
+      "crc32": "aca278c3"
+    },
+    {
+      "path": "jobs/00134_exploration_Case3_baseline_1792153071566462885/warm.json",
+      "size_bytes": 9037,
+      "crc32": "ca0580ac"
+    },
+    {
+      "path": "jobs/00135_exploration_Case3_both_1792153071837354769/result.json",
+      "size_bytes": 9802,
+      "crc32": "aeee595b"
+    },
+    {
+      "path": "jobs/00135_exploration_Case3_both_1792153071837354769/result.json.checkpoint.json",
+      "size_bytes": 9692,
+      "crc32": "33a6f9dd"
+    },
+    {
+      "path": "jobs/00135_exploration_Case3_both_1792153071837354769/warm.json",
+      "size_bytes": 9801,
+      "crc32": "9f5593fb"
+    },
+    {
+      "path": "jobs/00136_exploration_Case3_regional_1792153655643487922/result.json",
+      "size_bytes": 9869,
+      "crc32": "9f5423ec"
+    },
+    {
+      "path": "jobs/00136_exploration_Case3_regional_1792153655643487922/result.json.checkpoint.json",
+      "size_bytes": 9759,
+      "crc32": "b741109d"
+    },
+    {
+      "path": "jobs/00136_exploration_Case3_regional_1792153655643487922/warm.json",
+      "size_bytes": 9866,
+      "crc32": "f440359e"
+    },
+    {
+      "path": "jobs/00137_exploration_Case3_balanced_1792153664392161274/result.json",
+      "size_bytes": 9886,
+      "crc32": "b258ef9f"
+    },
+    {
+      "path": "jobs/00137_exploration_Case3_balanced_1792153664392161274/result.json.checkpoint.json",
+      "size_bytes": 9776,
+      "crc32": "5e9cafa6"
+    },
+    {
+      "path": "jobs/00137_exploration_Case3_balanced_1792153664392161274/warm.json",
+      "size_bytes": 9883,
+      "crc32": "4f0b28c5"
+    },
+    {
+      "path": "jobs/00138_exploration_Case3_wide_1792153665427428931/result.json",
+      "size_bytes": 9861,
+      "crc32": "b4cb1e5d"
+    },
+    {
+      "path": "jobs/00138_exploration_Case3_wide_1792153665427428931/result.json.checkpoint.json",
+      "size_bytes": 9751,
+      "crc32": "7671bb21"
+    },
+    {
+      "path": "jobs/00138_exploration_Case3_wide_1792153665427428931/warm.json",
+      "size_bytes": 9866,
+      "crc32": "afb60747"
+    },
+    {
+      "path": "jobs/00139_exploration_Case3_baseline_1792153665888441367/result.json",
+      "size_bytes": 9035,
+      "crc32": "78e8049b"
+    },
+    {
+      "path": "jobs/00139_exploration_Case3_baseline_1792153665888441367/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "12d96049"
+    },
+    {
+      "path": "jobs/00139_exploration_Case3_baseline_1792153665888441367/warm.json",
+      "size_bytes": 9038,
+      "crc32": "86464b57"
+    },
+    {
+      "path": "jobs/00140_exploration_Case3_baseline_1792153670186808589/result.json",
+      "size_bytes": 9035,
+      "crc32": "d693094e"
+    },
+    {
+      "path": "jobs/00140_exploration_Case3_baseline_1792153670186808589/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "25341a66"
+    },
+    {
+      "path": "jobs/00140_exploration_Case3_baseline_1792153670186808589/warm.json",
+      "size_bytes": 9033,
+      "crc32": "d7c43e26"
+    },
+    {
+      "path": "jobs/00141_exploration_Case3_both_1792153670730240312/result.json",
+      "size_bytes": 9801,
+      "crc32": "4940a74a"
+    },
+    {
+      "path": "jobs/00141_exploration_Case3_both_1792153670730240312/result.json.checkpoint.json",
+      "size_bytes": 9691,
+      "crc32": "68a8cd49"
+    },
+    {
+      "path": "jobs/00141_exploration_Case3_both_1792153670730240312/warm.json",
+      "size_bytes": 9803,
+      "crc32": "3a634a0c"
+    },
+    {
+      "path": "jobs/00142_exploration_Case3_both_1792153671518881908/result.json",
+      "size_bytes": 9797,
+      "crc32": "3bf7485a"
+    },
+    {
+      "path": "jobs/00142_exploration_Case3_both_1792153671518881908/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "60e5a493"
+    },
+    {
+      "path": "jobs/00142_exploration_Case3_both_1792153671518881908/warm.json",
+      "size_bytes": 9794,
+      "crc32": "3118a89a"
+    },
+    {
+      "path": "jobs/00143_exploration_Case3_regional_1792153671999622870/result.json",
+      "size_bytes": 9882,
+      "crc32": "969dddc8"
+    },
+    {
+      "path": "jobs/00143_exploration_Case3_regional_1792153671999622870/result.json.checkpoint.json",
+      "size_bytes": 9772,
+      "crc32": "53c5d1a4"
+    },
+    {
+      "path": "jobs/00143_exploration_Case3_regional_1792153671999622870/warm.json",
+      "size_bytes": 9879,
+      "crc32": "f8d6538f"
+    },
+    {
+      "path": "jobs/00144_exploration_Case3_balanced_1792153672348694886/result.json",
+      "size_bytes": 9869,
+      "crc32": "5b63c1c3"
+    },
+    {
+      "path": "jobs/00144_exploration_Case3_balanced_1792153672348694886/result.json.checkpoint.json",
+      "size_bytes": 9760,
+      "crc32": "c7eefb9d"
+    },
+    {
+      "path": "jobs/00144_exploration_Case3_balanced_1792153672348694886/warm.json",
+      "size_bytes": 9874,
+      "crc32": "5b0a5604"
+    },
+    {
+      "path": "jobs/00145_exploration_Case3_wide_1792153673431199400/result.json",
+      "size_bytes": 9861,
+      "crc32": "422f62ab"
+    },
+    {
+      "path": "jobs/00145_exploration_Case3_wide_1792153673431199400/result.json.checkpoint.json",
+      "size_bytes": 9751,
+      "crc32": "6687e12f"
+    },
+    {
+      "path": "jobs/00145_exploration_Case3_wide_1792153673431199400/warm.json",
+      "size_bytes": 9866,
+      "crc32": "6884f3bb"
+    },
+    {
+      "path": "jobs/00146_exploration_Case3_baseline_1792153673892309117/result.json",
+      "size_bytes": 9029,
+      "crc32": "89c14c32"
+    },
+    {
+      "path": "jobs/00146_exploration_Case3_baseline_1792153673892309117/result.json.checkpoint.json",
+      "size_bytes": 8919,
+      "crc32": "0ae62e01"
+    },
+    {
+      "path": "jobs/00146_exploration_Case3_baseline_1792153673892309117/warm.json",
+      "size_bytes": 9031,
+      "crc32": "2df4b5a0"
+    },
+    {
+      "path": "jobs/00147_exploration_Case3_both_1792153674100097423/result.json",
+      "size_bytes": 9797,
+      "crc32": "d05a34c8"
+    },
+    {
+      "path": "jobs/00147_exploration_Case3_both_1792153674100097423/result.json.checkpoint.json",
+      "size_bytes": 9687,
+      "crc32": "178ad73f"
+    },
+    {
+      "path": "jobs/00147_exploration_Case3_both_1792153674100097423/warm.json",
+      "size_bytes": 9802,
+      "crc32": "aeee595b"
+    },
+    {
+      "path": "jobs/00148_exploration_Case3_regional_1792154256081985383/result.json",
+      "size_bytes": 9868,
+      "crc32": "903e1612"
+    },
+    {
+      "path": "jobs/00148_exploration_Case3_regional_1792154256081985383/result.json.checkpoint.json",
+      "size_bytes": 9758,
+      "crc32": "76daad09"
+    },
+    {
+      "path": "jobs/00148_exploration_Case3_regional_1792154256081985383/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00149_exploration_Case3_balanced_1792154264808332789/result.json",
+      "size_bytes": 9877,
+      "crc32": "bd6989b4"
+    },
+    {
+      "path": "jobs/00149_exploration_Case3_balanced_1792154264808332789/result.json.checkpoint.json",
+      "size_bytes": 9769,
+      "crc32": "080131ae"
+    },
+    {
+      "path": "jobs/00149_exploration_Case3_balanced_1792154264808332789/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00150_exploration_Case3_wide_1792154266125381412/result.json",
+      "size_bytes": 9867,
+      "crc32": "8e20e06b"
+    },
+    {
+      "path": "jobs/00150_exploration_Case3_wide_1792154266125381412/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "c978dad2"
+    },
+    {
+      "path": "jobs/00150_exploration_Case3_wide_1792154266125381412/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00151_exploration_Case3_baseline_1792154266476024332/result.json",
+      "size_bytes": 9035,
+      "crc32": "66653cc8"
+    },
+    {
+      "path": "jobs/00151_exploration_Case3_baseline_1792154266476024332/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "d2bf168d"
+    },
+    {
+      "path": "jobs/00151_exploration_Case3_baseline_1792154266476024332/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00152_exploration_Case3_baseline_1792154271328460419/result.json",
+      "size_bytes": 9036,
+      "crc32": "9c232a0a"
+    },
+    {
+      "path": "jobs/00152_exploration_Case3_baseline_1792154271328460419/result.json.checkpoint.json",
+      "size_bytes": 8926,
+      "crc32": "f9a53329"
+    },
+    {
+      "path": "jobs/00152_exploration_Case3_baseline_1792154271328460419/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00153_exploration_Case3_both_1792154271507984863/result.json",
+      "size_bytes": 9797,
+      "crc32": "ce84a44e"
+    },
+    {
+      "path": "jobs/00153_exploration_Case3_both_1792154271507984863/result.json.checkpoint.json",
+      "size_bytes": 9688,
+      "crc32": "c77df1f2"
+    },
+    {
+      "path": "jobs/00153_exploration_Case3_both_1792154271507984863/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00154_exploration_Case3_both_1792154272158036311/result.json",
+      "size_bytes": 9793,
+      "crc32": "4edaa958"
+    },
+    {
+      "path": "jobs/00154_exploration_Case3_both_1792154272158036311/result.json.checkpoint.json",
+      "size_bytes": 9683,
+      "crc32": "6a8b2618"
+    },
+    {
+      "path": "jobs/00154_exploration_Case3_both_1792154272158036311/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00155_exploration_Case3_regional_1792154272562950426/result.json",
+      "size_bytes": 9878,
+      "crc32": "2c882e4a"
+    },
+    {
+      "path": "jobs/00155_exploration_Case3_regional_1792154272562950426/result.json.checkpoint.json",
+      "size_bytes": 9768,
+      "crc32": "492ff89d"
+    },
+    {
+      "path": "jobs/00155_exploration_Case3_regional_1792154272562950426/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00156_exploration_Case3_balanced_1792154272931511422/result.json",
+      "size_bytes": 9875,
+      "crc32": "75adb05b"
+    },
+    {
+      "path": "jobs/00156_exploration_Case3_balanced_1792154272931511422/result.json.checkpoint.json",
+      "size_bytes": 9765,
+      "crc32": "e6b3cd07"
+    },
+    {
+      "path": "jobs/00156_exploration_Case3_balanced_1792154272931511422/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00157_exploration_Case3_wide_1792154273764497120/result.json",
+      "size_bytes": 9867,
+      "crc32": "4981e58e"
+    },
+    {
+      "path": "jobs/00157_exploration_Case3_wide_1792154273764497120/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "d1f1dd5d"
+    },
+    {
+      "path": "jobs/00157_exploration_Case3_wide_1792154273764497120/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00158_exploration_Case3_baseline_1792154274387772710/result.json",
+      "size_bytes": 9031,
+      "crc32": "d725c662"
+    },
+    {
+      "path": "jobs/00158_exploration_Case3_baseline_1792154274387772710/result.json.checkpoint.json",
+      "size_bytes": 8921,
+      "crc32": "ff4ea8f7"
+    },
+    {
+      "path": "jobs/00158_exploration_Case3_baseline_1792154274387772710/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00159_exploration_Case3_both_1792154274552530161/result.json",
+      "size_bytes": 9801,
+      "crc32": "be00508a"
+    },
+    {
+      "path": "jobs/00159_exploration_Case3_both_1792154274552530161/result.json.checkpoint.json",
+      "size_bytes": 9692,
+      "crc32": "58344f5e"
+    },
+    {
+      "path": "jobs/00159_exploration_Case3_both_1792154274552530161/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00160_exploration_Case3_regional_1792154859505961653/result.json",
+      "size_bytes": 9866,
+      "crc32": "7543765e"
+    },
+    {
+      "path": "jobs/00160_exploration_Case3_regional_1792154859505961653/result.json.checkpoint.json",
+      "size_bytes": 9756,
+      "crc32": "bf48fdc4"
+    },
+    {
+      "path": "jobs/00160_exploration_Case3_regional_1792154859505961653/warm.json",
+      "size_bytes": 9868,
+      "crc32": "903e1612"
+    },
+    {
+      "path": "jobs/00161_exploration_Case3_balanced_1792154865101323316/result.json",
+      "size_bytes": 9876,
+      "crc32": "9ed644f4"
+    },
+    {
+      "path": "jobs/00161_exploration_Case3_balanced_1792154865101323316/result.json.checkpoint.json",
+      "size_bytes": 9767,
+      "crc32": "20d979e5"
+    },
+    {
+      "path": "jobs/00161_exploration_Case3_balanced_1792154865101323316/warm.json",
+      "size_bytes": 9877,
+      "crc32": "bd6989b4"
+    },
+    {
+      "path": "jobs/00162_exploration_Case3_wide_1792154866777053814/result.json",
+      "size_bytes": 9866,
+      "crc32": "f9afaf10"
+    },
+    {
+      "path": "jobs/00162_exploration_Case3_wide_1792154866777053814/result.json.checkpoint.json",
+      "size_bytes": 9756,
+      "crc32": "803133de"
+    },
+    {
+      "path": "jobs/00162_exploration_Case3_wide_1792154866777053814/warm.json",
+      "size_bytes": 9867,
+      "crc32": "8e20e06b"
+    },
+    {
+      "path": "jobs/00163_exploration_Case3_baseline_1792154867237000610/result.json",
+      "size_bytes": 9038,
+      "crc32": "83b93e7d"
+    },
+    {
+      "path": "jobs/00163_exploration_Case3_baseline_1792154867237000610/result.json.checkpoint.json",
+      "size_bytes": 8928,
+      "crc32": "cc6c11c2"
+    },
+    {
+      "path": "jobs/00163_exploration_Case3_baseline_1792154867237000610/warm.json",
+      "size_bytes": 9035,
+      "crc32": "66653cc8"
+    },
+    {
+      "path": "jobs/00164_exploration_Case3_baseline_1792154871852419364/result.json",
+      "size_bytes": 9042,
+      "crc32": "e24eb28f"
+    },
+    {
+      "path": "jobs/00164_exploration_Case3_baseline_1792154871852419364/result.json.checkpoint.json",
+      "size_bytes": 8932,
+      "crc32": "9359fac2"
+    },
+    {
+      "path": "jobs/00164_exploration_Case3_baseline_1792154871852419364/warm.json",
+      "size_bytes": 9036,
+      "crc32": "9c232a0a"
+    },
+    {
+      "path": "jobs/00165_exploration_Case3_both_1792154872336751873/result.json",
+      "size_bytes": 9799,
+      "crc32": "203818fe"
+    },
+    {
+      "path": "jobs/00165_exploration_Case3_both_1792154872336751873/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "394848e5"
+    },
+    {
+      "path": "jobs/00165_exploration_Case3_both_1792154872336751873/warm.json",
+      "size_bytes": 9797,
+      "crc32": "ce84a44e"
+    },
+    {
+      "path": "jobs/00166_exploration_Case3_both_1792154875786761039/result.json",
+      "size_bytes": 9788,
+      "crc32": "d752e6dd"
+    },
+    {
+      "path": "jobs/00166_exploration_Case3_both_1792154875786761039/result.json.checkpoint.json",
+      "size_bytes": 9678,
+      "crc32": "a8fd1f10"
+    },
+    {
+      "path": "jobs/00166_exploration_Case3_both_1792154875786761039/warm.json",
+      "size_bytes": 9793,
+      "crc32": "4edaa958"
+    },
+    {
+      "path": "jobs/00167_exploration_Case3_regional_1792154876339133251/result.json",
+      "size_bytes": 9874,
+      "crc32": "acc1034f"
+    },
+    {
+      "path": "jobs/00167_exploration_Case3_regional_1792154876339133251/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "829a7438"
+    },
+    {
+      "path": "jobs/00167_exploration_Case3_regional_1792154876339133251/warm.json",
+      "size_bytes": 9878,
+      "crc32": "2c882e4a"
+    },
+    {
+      "path": "jobs/00168_exploration_Case3_balanced_1792154876545494755/result.json",
+      "size_bytes": 9870,
+      "crc32": "fa2b2224"
+    },
+    {
+      "path": "jobs/00168_exploration_Case3_balanced_1792154876545494755/result.json.checkpoint.json",
+      "size_bytes": 9760,
+      "crc32": "9086d503"
+    },
+    {
+      "path": "jobs/00168_exploration_Case3_balanced_1792154876545494755/warm.json",
+      "size_bytes": 9875,
+      "crc32": "75adb05b"
+    },
+    {
+      "path": "jobs/00169_exploration_Case3_wide_1792154876782177075/result.json",
+      "size_bytes": 9866,
+      "crc32": "b8be1f0f"
+    },
+    {
+      "path": "jobs/00169_exploration_Case3_wide_1792154876782177075/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "21a675e5"
+    },
+    {
+      "path": "jobs/00169_exploration_Case3_wide_1792154876782177075/warm.json",
+      "size_bytes": 9867,
+      "crc32": "4981e58e"
+    },
+    {
+      "path": "jobs/00170_exploration_Case3_baseline_1792154876983266062/result.json",
+      "size_bytes": 9042,
+      "crc32": "8e1ef295"
+    },
+    {
+      "path": "jobs/00170_exploration_Case3_baseline_1792154876983266062/result.json.checkpoint.json",
+      "size_bytes": 8932,
+      "crc32": "17c76232"
+    },
+    {
+      "path": "jobs/00170_exploration_Case3_baseline_1792154876983266062/warm.json",
+      "size_bytes": 9031,
+      "crc32": "d725c662"
+    },
+    {
+      "path": "jobs/00171_exploration_Case3_both_1792154877189267442/result.json",
+      "size_bytes": 9794,
+      "crc32": "378fbc7a"
+    },
+    {
+      "path": "jobs/00171_exploration_Case3_both_1792154877189267442/result.json.checkpoint.json",
+      "size_bytes": 9683,
+      "crc32": "cbe3952c"
+    },
+    {
+      "path": "jobs/00171_exploration_Case3_both_1792154877189267442/warm.json",
+      "size_bytes": 9801,
+      "crc32": "be00508a"
+    },
+    {
+      "path": "jobs/00172_exploration_Case3_regional_1792155461110249551/result.json",
+      "size_bytes": 9871,
+      "crc32": "50b300b9"
+    },
+    {
+      "path": "jobs/00172_exploration_Case3_regional_1792155461110249551/result.json.checkpoint.json",
+      "size_bytes": 9761,
+      "crc32": "eb39431a"
+    },
+    {
+      "path": "jobs/00172_exploration_Case3_regional_1792155461110249551/warm.json",
+      "size_bytes": 9866,
+      "crc32": "7543765e"
+    },
+    {
+      "path": "jobs/00173_exploration_Case3_balanced_1792155466196076260/result.json",
+      "size_bytes": 9874,
+      "crc32": "72f194f4"
+    },
+    {
+      "path": "jobs/00173_exploration_Case3_balanced_1792155466196076260/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "28f6841d"
+    },
+    {
+      "path": "jobs/00173_exploration_Case3_balanced_1792155466196076260/warm.json",
+      "size_bytes": 9876,
+      "crc32": "9ed644f4"
+    },
+    {
+      "path": "jobs/00174_exploration_Case3_wide_1792155467309435214/result.json",
+      "size_bytes": 9859,
+      "crc32": "09290927"
+    },
+    {
+      "path": "jobs/00174_exploration_Case3_wide_1792155467309435214/result.json.checkpoint.json",
+      "size_bytes": 9749,
+      "crc32": "5b1c8778"
+    },
+    {
+      "path": "jobs/00174_exploration_Case3_wide_1792155467309435214/warm.json",
+      "size_bytes": 9866,
+      "crc32": "f9afaf10"
+    },
+    {
+      "path": "jobs/00175_exploration_Case3_baseline_1792155468369984234/result.json",
+      "size_bytes": 9035,
+      "crc32": "770ce9a0"
+    },
+    {
+      "path": "jobs/00175_exploration_Case3_baseline_1792155468369984234/result.json.checkpoint.json",
+      "size_bytes": 8926,
+      "crc32": "83ddec0a"
+    },
+    {
+      "path": "jobs/00175_exploration_Case3_baseline_1792155468369984234/warm.json",
+      "size_bytes": 9038,
+      "crc32": "83b93e7d"
+    },
+    {
+      "path": "jobs/00176_exploration_Case3_baseline_1792155472702599540/result.json",
+      "size_bytes": 9037,
+      "crc32": "5ea77f81"
+    },
+    {
+      "path": "jobs/00176_exploration_Case3_baseline_1792155472702599540/result.json.checkpoint.json",
+      "size_bytes": 8927,
+      "crc32": "315d36be"
+    },
+    {
+      "path": "jobs/00176_exploration_Case3_baseline_1792155472702599540/warm.json",
+      "size_bytes": 9042,
+      "crc32": "e24eb28f"
+    },
+    {
+      "path": "jobs/00177_exploration_Case3_both_1792155473216297312/result.json",
+      "size_bytes": 9796,
+      "crc32": "2853b0ca"
+    },
+    {
+      "path": "jobs/00177_exploration_Case3_both_1792155473216297312/result.json.checkpoint.json",
+      "size_bytes": 9686,
+      "crc32": "f67b140f"
+    },
+    {
+      "path": "jobs/00177_exploration_Case3_both_1792155473216297312/warm.json",
+      "size_bytes": 9799,
+      "crc32": "203818fe"
+    },
+    {
+      "path": "jobs/00178_exploration_Case3_both_1792155477713514858/result.json",
+      "size_bytes": 9802,
+      "crc32": "af7af456"
+    },
+    {
+      "path": "jobs/00178_exploration_Case3_both_1792155477713514858/result.json.checkpoint.json",
+      "size_bytes": 9692,
+      "crc32": "bef2c627"
+    },
+    {
+      "path": "jobs/00178_exploration_Case3_both_1792155477713514858/warm.json",
+      "size_bytes": 9788,
+      "crc32": "d752e6dd"
+    },
+    {
+      "path": "jobs/00179_exploration_Case3_regional_1792155478183451302/result.json",
+      "size_bytes": 9874,
+      "crc32": "7f037de6"
+    },
+    {
+      "path": "jobs/00179_exploration_Case3_regional_1792155478183451302/result.json.checkpoint.json",
+      "size_bytes": 9763,
+      "crc32": "d9f58f21"
+    },
+    {
+      "path": "jobs/00179_exploration_Case3_regional_1792155478183451302/warm.json",
+      "size_bytes": 9874,
+      "crc32": "acc1034f"
+    },
+    {
+      "path": "jobs/00180_exploration_Case3_balanced_1792155478404345154/result.json",
+      "size_bytes": 9867,
+      "crc32": "9f63b231"
+    },
+    {
+      "path": "jobs/00180_exploration_Case3_balanced_1792155478404345154/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "27392bc1"
+    },
+    {
+      "path": "jobs/00180_exploration_Case3_balanced_1792155478404345154/warm.json",
+      "size_bytes": 9870,
+      "crc32": "fa2b2224"
+    },
+    {
+      "path": "jobs/00181_exploration_Case3_wide_1792155478628446430/result.json",
+      "size_bytes": 9863,
+      "crc32": "02ce6d76"
+    },
+    {
+      "path": "jobs/00181_exploration_Case3_wide_1792155478628446430/result.json.checkpoint.json",
+      "size_bytes": 9753,
+      "crc32": "b13eb3be"
+    },
+    {
+      "path": "jobs/00181_exploration_Case3_wide_1792155478628446430/warm.json",
+      "size_bytes": 9866,
+      "crc32": "b8be1f0f"
+    },
+    {
+      "path": "jobs/00182_exploration_Case3_baseline_1792155478874813214/result.json",
+      "size_bytes": 9037,
+      "crc32": "0b16029e"
+    },
+    {
+      "path": "jobs/00182_exploration_Case3_baseline_1792155478874813214/result.json.checkpoint.json",
+      "size_bytes": 8927,
+      "crc32": "15b939c8"
+    },
+    {
+      "path": "jobs/00182_exploration_Case3_baseline_1792155478874813214/warm.json",
+      "size_bytes": 9042,
+      "crc32": "8e1ef295"
+    },
+    {
+      "path": "jobs/00183_exploration_Case3_both_1792155479102396438/result.json",
+      "size_bytes": 9798,
+      "crc32": "ffdd7a93"
+    },
+    {
+      "path": "jobs/00183_exploration_Case3_both_1792155479102396438/result.json.checkpoint.json",
+      "size_bytes": 9688,
+      "crc32": "70fb5499"
+    },
+    {
+      "path": "jobs/00183_exploration_Case3_both_1792155479102396438/warm.json",
+      "size_bytes": 9794,
+      "crc32": "378fbc7a"
+    },
+    {
+      "path": "jobs/00184_exploration_Case3_regional_1792156063011902451/result.json",
+      "size_bytes": 9865,
+      "crc32": "356c7df0"
+    },
+    {
+      "path": "jobs/00184_exploration_Case3_regional_1792156063011902451/result.json.checkpoint.json",
+      "size_bytes": 9755,
+      "crc32": "75ce4d0d"
+    },
+    {
+      "path": "jobs/00184_exploration_Case3_regional_1792156063011902451/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00185_exploration_Case3_balanced_1792156068409227081/result.json",
+      "size_bytes": 9874,
+      "crc32": "f2a11fad"
+    },
+    {
+      "path": "jobs/00185_exploration_Case3_balanced_1792156068409227081/result.json.checkpoint.json",
+      "size_bytes": 9764,
+      "crc32": "f13baba8"
+    },
+    {
+      "path": "jobs/00185_exploration_Case3_balanced_1792156068409227081/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00186_exploration_Case3_wide_1792156068935077454/result.json",
+      "size_bytes": 9865,
+      "crc32": "99e7b475"
+    },
+    {
+      "path": "jobs/00186_exploration_Case3_wide_1792156068935077454/result.json.checkpoint.json",
+      "size_bytes": 9755,
+      "crc32": "182d206c"
+    },
+    {
+      "path": "jobs/00186_exploration_Case3_wide_1792156068935077454/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00187_exploration_Case3_baseline_1792156069827592796/result.json",
+      "size_bytes": 9033,
+      "crc32": "eb81ba50"
+    },
+    {
+      "path": "jobs/00187_exploration_Case3_baseline_1792156069827592796/result.json.checkpoint.json",
+      "size_bytes": 8923,
+      "crc32": "fcd7925a"
+    },
+    {
+      "path": "jobs/00187_exploration_Case3_baseline_1792156069827592796/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00188_exploration_Case3_baseline_1792156073777969586/result.json",
+      "size_bytes": 9039,
+      "crc32": "a37fdfd0"
+    },
+    {
+      "path": "jobs/00188_exploration_Case3_baseline_1792156073777969586/result.json.checkpoint.json",
+      "size_bytes": 8930,
+      "crc32": "6d403d01"
+    },
+    {
+      "path": "jobs/00188_exploration_Case3_baseline_1792156073777969586/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00189_exploration_Case3_both_1792156074305959051/result.json",
+      "size_bytes": 9799,
+      "crc32": "09ed79c7"
+    },
+    {
+      "path": "jobs/00189_exploration_Case3_both_1792156074305959051/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "a554748d"
+    },
+    {
+      "path": "jobs/00189_exploration_Case3_both_1792156074305959051/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00190_exploration_Case3_both_1792156078682591167/result.json",
+      "size_bytes": 9799,
+      "crc32": "01ce578f"
+    },
+    {
+      "path": "jobs/00190_exploration_Case3_both_1792156078682591167/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "2442f590"
+    },
+    {
+      "path": "jobs/00190_exploration_Case3_both_1792156078682591167/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00191_exploration_Case3_regional_1792156079316382554/result.json",
+      "size_bytes": 9880,
+      "crc32": "d69b44f9"
+    },
+    {
+      "path": "jobs/00191_exploration_Case3_regional_1792156079316382554/result.json.checkpoint.json",
+      "size_bytes": 9770,
+      "crc32": "61fa2b99"
+    },
+    {
+      "path": "jobs/00191_exploration_Case3_regional_1792156079316382554/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00192_exploration_Case3_balanced_1792156080304077195/result.json",
+      "size_bytes": 9873,
+      "crc32": "dc9d268f"
+    },
+    {
+      "path": "jobs/00192_exploration_Case3_balanced_1792156080304077195/result.json.checkpoint.json",
+      "size_bytes": 9763,
+      "crc32": "c5cbd66c"
+    },
+    {
+      "path": "jobs/00192_exploration_Case3_balanced_1792156080304077195/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00193_exploration_Case3_wide_1792156081290559723/result.json",
+      "size_bytes": 9863,
+      "crc32": "d047573a"
+    },
+    {
+      "path": "jobs/00193_exploration_Case3_wide_1792156081290559723/result.json.checkpoint.json",
+      "size_bytes": 9753,
+      "crc32": "63b7000c"
+    },
+    {
+      "path": "jobs/00193_exploration_Case3_wide_1792156081290559723/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00194_exploration_Case3_baseline_1792156081719269066/result.json",
+      "size_bytes": 9041,
+      "crc32": "42b8b6df"
+    },
+    {
+      "path": "jobs/00194_exploration_Case3_baseline_1792156081719269066/result.json.checkpoint.json",
+      "size_bytes": 8930,
+      "crc32": "cd3ddad9"
+    },
+    {
+      "path": "jobs/00194_exploration_Case3_baseline_1792156081719269066/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00195_exploration_Case3_both_1792156082057540503/result.json",
+      "size_bytes": 9807,
+      "crc32": "8a639921"
+    },
+    {
+      "path": "jobs/00195_exploration_Case3_both_1792156082057540503/result.json.checkpoint.json",
+      "size_bytes": 9697,
+      "crc32": "379bb29e"
+    },
+    {
+      "path": "jobs/00195_exploration_Case3_both_1792156082057540503/warm.json",
+      "size_bytes": 4270,
+      "crc32": "0ffb0bfa"
+    },
+    {
+      "path": "jobs/00196_exploration_Case3_regional_1792156667388331167/result.json",
+      "size_bytes": 9870,
+      "crc32": "79e2ffc3"
+    },
+    {
+      "path": "jobs/00196_exploration_Case3_regional_1792156667388331167/result.json.checkpoint.json",
+      "size_bytes": 9760,
+      "crc32": "b7e84966"
+    },
+    {
+      "path": "jobs/00196_exploration_Case3_regional_1792156667388331167/warm.json",
+      "size_bytes": 9865,
+      "crc32": "356c7df0"
+    },
+    {
+      "path": "jobs/00197_exploration_Case3_balanced_1792156672242064879/result.json",
+      "size_bytes": 9878,
+      "crc32": "55d62006"
+    },
+    {
+      "path": "jobs/00197_exploration_Case3_balanced_1792156672242064879/result.json.checkpoint.json",
+      "size_bytes": 9768,
+      "crc32": "4d96076a"
+    },
+    {
+      "path": "jobs/00197_exploration_Case3_balanced_1792156672242064879/warm.json",
+      "size_bytes": 9874,
+      "crc32": "f2a11fad"
+    },
+    {
+      "path": "jobs/00198_exploration_Case3_wide_1792156672775821926/result.json",
+      "size_bytes": 9864,
+      "crc32": "51a74067"
+    },
+    {
+      "path": "jobs/00198_exploration_Case3_wide_1792156672775821926/result.json.checkpoint.json",
+      "size_bytes": 9754,
+      "crc32": "74764751"
+    },
+    {
+      "path": "jobs/00198_exploration_Case3_wide_1792156672775821926/warm.json",
+      "size_bytes": 9865,
+      "crc32": "99e7b475"
+    },
+    {
+      "path": "jobs/00199_exploration_Case3_baseline_1792156673034107319/result.json",
+      "size_bytes": 9037,
+      "crc32": "28d11e78"
+    },
+    {
+      "path": "jobs/00199_exploration_Case3_baseline_1792156673034107319/result.json.checkpoint.json",
+      "size_bytes": 8927,
+      "crc32": "733aa04c"
+    },
+    {
+      "path": "jobs/00199_exploration_Case3_baseline_1792156673034107319/warm.json",
+      "size_bytes": 9033,
+      "crc32": "eb81ba50"
+    },
+    {
+      "path": "jobs/00200_exploration_Case3_baseline_1792156674174208679/result.json",
+      "size_bytes": 9029,
+      "crc32": "e8e6f5a9"
+    },
+    {
+      "path": "jobs/00200_exploration_Case3_baseline_1792156674174208679/result.json.checkpoint.json",
+      "size_bytes": 8919,
+      "crc32": "b5fc1638"
+    },
+    {
+      "path": "jobs/00200_exploration_Case3_baseline_1792156674174208679/warm.json",
+      "size_bytes": 9039,
+      "crc32": "a37fdfd0"
+    },
+    {
+      "path": "jobs/00201_exploration_Case3_both_1792156678003779133/result.json",
+      "size_bytes": 9800,
+      "crc32": "ab60553a"
+    },
+    {
+      "path": "jobs/00201_exploration_Case3_both_1792156678003779133/result.json.checkpoint.json",
+      "size_bytes": 9690,
+      "crc32": "e5b283da"
+    },
+    {
+      "path": "jobs/00201_exploration_Case3_both_1792156678003779133/warm.json",
+      "size_bytes": 9799,
+      "crc32": "09ed79c7"
+    },
+    {
+      "path": "jobs/00202_exploration_Case3_both_1792156679223526122/result.json",
+      "size_bytes": 9799,
+      "crc32": "6d37cd05"
+    },
+    {
+      "path": "jobs/00202_exploration_Case3_both_1792156679223526122/result.json.checkpoint.json",
+      "size_bytes": 9689,
+      "crc32": "d6aefca6"
+    },
+    {
+      "path": "jobs/00202_exploration_Case3_both_1792156679223526122/warm.json",
+      "size_bytes": 9799,
+      "crc32": "01ce578f"
+    },
+    {
+      "path": "jobs/00203_exploration_Case3_regional_1792156683204428012/result.json",
+      "size_bytes": 9883,
+      "crc32": "5077f537"
+    },
+    {
+      "path": "jobs/00203_exploration_Case3_regional_1792156683204428012/result.json.checkpoint.json",
+      "size_bytes": 9773,
+      "crc32": "57cc41dd"
+    },
+    {
+      "path": "jobs/00203_exploration_Case3_regional_1792156683204428012/warm.json",
+      "size_bytes": 9880,
+      "crc32": "d69b44f9"
+    },
+    {
+      "path": "jobs/00204_exploration_Case3_balanced_1792156683672276254/result.json",
+      "size_bytes": 9867,
+      "crc32": "2052fa68"
+    },
+    {
+      "path": "jobs/00204_exploration_Case3_balanced_1792156683672276254/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "155b2847"
+    },
+    {
+      "path": "jobs/00204_exploration_Case3_balanced_1792156683672276254/warm.json",
+      "size_bytes": 9873,
+      "crc32": "dc9d268f"
+    },
+    {
+      "path": "jobs/00205_exploration_Case3_wide_1792156683942531774/result.json",
+      "size_bytes": 9867,
+      "crc32": "560b3131"
+    },
+    {
+      "path": "jobs/00205_exploration_Case3_wide_1792156683942531774/result.json.checkpoint.json",
+      "size_bytes": 9757,
+      "crc32": "cb64eb2e"
+    },
+    {
+      "path": "jobs/00205_exploration_Case3_wide_1792156683942531774/warm.json",
+      "size_bytes": 9863,
+      "crc32": "d047573a"
+    },
+    {
+      "path": "jobs/00206_exploration_Case3_baseline_1792156684208692370/result.json",
+      "size_bytes": 9035,
+      "crc32": "a17b2ddc"
+    },
+    {
+      "path": "jobs/00206_exploration_Case3_baseline_1792156684208692370/result.json.checkpoint.json",
+      "size_bytes": 8925,
+      "crc32": "149b3b03"
+    },
+    {
+      "path": "jobs/00206_exploration_Case3_baseline_1792156684208692370/warm.json",
+      "size_bytes": 9041,
+      "crc32": "42b8b6df"
+    },
+    {
+      "path": "jobs/00207_exploration_Case3_both_1792156684432485049/result.json",
+      "size_bytes": 9800,
+      "crc32": "cda4ebbe"
+    },
+    {
+      "path": "jobs/00207_exploration_Case3_both_1792156684432485049/result.json.checkpoint.json",
+      "size_bytes": 9690,
+      "crc32": "7f6181ac"
+    },
+    {
+      "path": "jobs/00207_exploration_Case3_both_1792156684432485049/warm.json",
+      "size_bytes": 9807,
+      "crc32": "8a639921"
+    },
+    {
+      "path": "jobs/00208_exploration_Case3_regional_1792157270050100708/result.json",
+      "size_bytes": 9872,
+      "crc32": "86eabd37"
+    },
+    {
+      "path": "jobs/00208_exploration_Case3_regional_1792157270050100708/result.json.checkpoint.json",
+      "size_bytes": 9762,
+      "crc32": "e4749458"
+    },
+    {
+      "path": "jobs/00208_exploration_Case3_regional_1792157270050100708/warm.json",
+      "size_bytes": 9870,
+      "crc32": "79e2ffc3"
+    },
+    {
+      "path": "jobs/00209_exploration_Case3_baseline_1792157275600218192/result.json",
+      "size_bytes": 9033,
+      "crc32": "f38fe2df"
+    },
+    {
+      "path": "jobs/00209_exploration_Case3_baseline_1792157275600218192/result.json.checkpoint.json",
+      "size_bytes": 8923,
+      "crc32": "e3101d6d"
+    },
+    {
+      "path": "jobs/00209_exploration_Case3_baseline_1792157275600218192/warm.json",
+      "size_bytes": 9029,
+      "crc32": "e8e6f5a9"
+    },
+    {
+      "path": "jobs/00210_exploration_Case3_balanced_1792157276511061954/result.json",
+      "size_bytes": 9880,
+      "crc32": "162902b9"
+    },
+    {
+      "path": "jobs/00210_exploration_Case3_balanced_1792157276511061954/result.json.checkpoint.json",
+      "size_bytes": 9771,
+      "crc32": "298a3806"
+    },
+    {
+      "path": "jobs/00210_exploration_Case3_balanced_1792157276511061954/warm.json",
+      "size_bytes": 9878,
+      "crc32": "55d62006"
+    },
+    {
+      "path": "jobs/00211_exploration_Case3_wide_1792157277326767574/result.json",
+      "size_bytes": 9857,
+      "crc32": "c056daff"
+    },
+    {
+      "path": "jobs/00211_exploration_Case3_wide_1792157277326767574/result.json.checkpoint.json",
+      "size_bytes": 9747,
+      "crc32": "afd82f6f"
+    },
+    {
+      "path": "jobs/00211_exploration_Case3_wide_1792157277326767574/warm.json",
+      "size_bytes": 9864,
+      "crc32": "51a74067"
+    },
+    {
+      "path": "jobs/00212_exploration_Case3_baseline_1792157278114521189/result.json",
+      "size_bytes": 9036,
+      "crc32": "3b1a4e97"
+    },
+    {
+      "path": "jobs/00212_exploration_Case3_baseline_1792157278114521189/result.json.checkpoint.json",
+      "size_bytes": 8926,
+      "crc32": "216fc537"
+    },
+    {
+      "path": "jobs/00212_exploration_Case3_baseline_1792157278114521189/warm.json",
+      "size_bytes": 9037,
+      "crc32": "28d11e78"
+    },
+    {
+      "path": "jobs/00213_exploration_Case3_both_1792157279479943284/result.json",
+      "size_bytes": 9797,
+      "crc32": "d8859019"
+    },
+    {
+      "path": "jobs/00213_exploration_Case3_both_1792157279479943284/result.json.checkpoint.json",
+      "size_bytes": 9686,
+      "crc32": "8fb2b200"
+    },
+    {
+      "path": "jobs/00213_exploration_Case3_both_1792157279479943284/warm.json",
+      "size_bytes": 9800,
+      "crc32": "ab60553a"
+    },
+    {
+      "path": "jobs/00214_exploration_Case3_both_1792157284051105547/result.json",
+      "size_bytes": 9800,
+      "crc32": "2939ebe3"
+    },
+    {
+      "path": "jobs/00214_exploration_Case3_both_1792157284051105547/result.json.checkpoint.json",
+      "size_bytes": 9690,
+      "crc32": "3bea8d4f"
+    },
+    {
+      "path": "jobs/00214_exploration_Case3_both_1792157284051105547/warm.json",
+      "size_bytes": 9799,
+      "crc32": "6d37cd05"
+    },
+    {
+      "path": "jobs/00215_exploration_Case3_regional_1792157285064497980/result.json",
+      "size_bytes": 9876,
+      "crc32": "739f11d0"
+    },
+    {
+      "path": "jobs/00215_exploration_Case3_regional_1792157285064497980/result.json.checkpoint.json",
+      "size_bytes": 9766,
+      "crc32": "e8fbc127"
+    },
+    {
+      "path": "jobs/00215_exploration_Case3_regional_1792157285064497980/warm.json",
+      "size_bytes": 9883,
+      "crc32": "5077f537"
+    },
+    {
+      "path": "jobs/00216_exploration_Case3_balanced_1792157286279009645/result.json",
+      "size_bytes": 9871,
+      "crc32": "f7237d5c"
+    },
+    {
+      "path": "jobs/00216_exploration_Case3_balanced_1792157286279009645/result.json.checkpoint.json",
+      "size_bytes": 0,
+      "crc32": "00000000"
+    }
+  ]
+}
