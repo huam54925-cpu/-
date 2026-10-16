@@ -1,0 +1,27 @@
+{
+  "test_environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "unit_tests": "10 tests passed, 25.396 seconds",
+  "real_snapshot_smoke_seconds": 45,
+  "workers": 8,
+  "completed_jobs": 44,
+  "failed_jobs": 0,
+  "deadline_interrupted_jobs": 8,
+  "total_jobs": 52,
+  "variants": [
+    "balanced",
+    "baseline",
+    "both",
+    "connectivity",
+    "regional",
+    "wide"
+  ],
+  "case1_searches_cancelled_by_proof": 2,
+  "final_status": "completed",
+  "route_and_bound_validation": "PASS",
+  "case3_improvement": "none beyond floating-point roundoff",
+  "three_hour_run_performed": false
+}
