@@ -1,0 +1,14 @@
+{
+  "Case1": {
+    "path": "inputs/case1.zip",
+    "sha256": "9a81854069dd8e63d4436fb23a1226620353c38389cfeb9f892d08a2f58ef316",
+    "source_commit": "bd9fa5317220a8f9b5adda9a7d90467d636c9553",
+    "original_filename": "snapshot_1792064931712292139.zip"
+  },
+  "Case3": {
+    "path": "inputs/case3.zip",
+    "sha256": "4018d06ce08246d0b594e750fe8915592da6bea4b791c3c6b3170b85fc100391",
+    "source_commit": "bd9fa5317220a8f9b5adda9a7d90467d636c9553",
+    "original_filename": "snapshot_1792064928918013842.zip"
+  }
+}
