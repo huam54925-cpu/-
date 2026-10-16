@@ -89,36 +89,25 @@ def _cycle_cover_lower_bound_km(df: pd.DataFrame, n_uav: int) -> float:
 
 
 def strong_lower_bound(df: pd.DataFrame, limit_h: float) -> dict:
-    points = df[["X_Coordinate", "Y_Coordinate"]].to_numpy(float)
-    demand = df.Inspection_Level.map(REQ).to_numpy(int)
-    augmented = np.vstack([[0.0, 0.0], points])
-    matrix_units = np.linalg.norm(augmented[:, None, :] - augmented[None, :, :], axis=2)
-    mst_km = float(minimum_spanning_tree(matrix_units).sum()) * UNIT_KM
-    repeated_degree_units = 0.0
-    for idx, count in enumerate(demand, start=1):
-        incident = np.delete(matrix_units[idx], idx)
-        repeated_degree_units += int(count) * float(np.partition(incident, 1)[:2].sum())
-    repeated_degree_km = repeated_degree_units * UNIT_KM / 2.0
-    service_h = float(demand.sum()) * SERVICE_H
-    farthest_h = float(np.max(2.0 * matrix_units[0, 1:] * UNIT_KM / SPEED + SERVICE_H))
-    n = max(1, math.ceil(service_h / limit_h - 1e-12))
-    while True:
-        cycle_km = _cycle_cover_lower_bound_km(df, n)
-        routing_km = max(mst_km, repeated_degree_km, cycle_km)
-        aggregate_h = service_h + routing_km / SPEED
-        makespan_lb = max(aggregate_h / n, farthest_h)
-        if makespan_lb <= limit_h + 1e-12:
-            break
-        n += 1
+    from uav_q1.lower_bounds import minimum_fleet_bound
+    points = [dict(x=row.X_Coordinate, y=row.Y_Coordinate,
+                   visits=REQ[row.Inspection_Level]) for _, row in df.iterrows()]
+    n, checks = minimum_fleet_bound(points, unit_km=UNIT_KM, speed_kmh=SPEED,
+                                    service_minutes=SERVICE_H * 60, limit_h=limit_h)
+    bound = checks[-1]
     return {
-        "N": int(n),
-        "service_hours": service_h,
-        "mst_km": mst_km,
-        "repeated_degree_km": repeated_degree_km,
-        "cycle_cover_km": cycle_km,
-        "aggregate_work_hours": aggregate_h,
-        "makespan_lower_bound_at_N": makespan_lb,
-        "farthest_roundtrip_lower_bound_hours": farthest_h,
+        "N": n,
+        "service_hours": bound["service_hours"],
+        "mst_km": bound["mst_km"],
+        "repeated_degree_km": bound["repeat_degree_km"],
+        "depot_degree_km": bound["depot_degree_km"],
+        "cycle_cover_km": bound["cycle_cover_km"],
+        "routing_lower_bound_km": bound["routing_lower_km"],
+        "aggregate_work_hours": bound["aggregate_work_hours"],
+        "makespan_lower_bound_at_N": bound["makespan_lower_bound_h"],
+        "farthest_roundtrip_lower_bound_hours": bound["farthest_roundtrip_h"],
+        "bound_method": "down-rounded distances; exact integer assignment primal/dual check",
+        "repeated_degree_definition": "sum(visits_i * nearest_distance_i), same neighbor allowed twice",
     }
 
 
