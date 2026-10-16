@@ -1,0 +1,1781 @@
+{
+  "Case1": {
+    "case": "Case1",
+    "archive": "best_makespan",
+    "original": {
+      "Tmax": 10.247496253716081,
+      "violation_h": 3.7061031500531065,
+      "total_h": 30.706103150053107,
+      "times_h": [
+        10.23323787372228,
+        10.225369022614746,
+        10.247496253716081
+      ]
+    },
+    "repeated_point_owners": {
+      "23": [
+        1,
+        3
+      ],
+      "50": [
+        1,
+        3,
+        3
+      ],
+      "46": [
+        1,
+        3
+      ],
+      "51": [
+        1,
+        1
+      ],
+      "43": [
+        1,
+        2,
+        2
+      ],
+      "15": [
+        1,
+        2,
+        2
+      ],
+      "39": [
+        1,
+        2
+      ],
+      "1": [
+        1,
+        2
+      ],
+      "22": [
+        1,
+        2
+      ],
+      "21": [
+        1,
+        2,
+        3
+      ],
+      "4": [
+        2,
+        2
+      ],
+      "45": [
+        2,
+        2
+      ],
+      "7": [
+        2,
+        3
+      ],
+      "28": [
+        3,
+        3,
+        3
+      ],
+      "27": [
+        3,
+        3
+      ]
+    },
+    "longest_edges": [
+      {
+        "uav": 3,
+        "from": 29,
+        "to": 0,
+        "km": 68.41052550594829,
+        "depot_edge": true
+      },
+      {
+        "uav": 1,
+        "from": 21,
+        "to": 0,
+        "km": 55.33760023709015,
+        "depot_edge": true
+      },
+      {
+        "uav": 2,
+        "from": 0,
+        "to": 21,
+        "km": 55.33760023709015,
+        "depot_edge": true
+      },
+      {
+        "uav": 3,
+        "from": 47,
+        "to": 29,
+        "km": 52.28049349422785,
+        "depot_edge": false
+      },
+      {
+        "uav": 1,
+        "from": 0,
+        "to": 30,
+        "km": 48.02082881417188,
+        "depot_edge": true
+      },
+      {
+        "uav": 1,
+        "from": 51,
+        "to": 33,
+        "km": 47.468410548490034,
+        "depot_edge": false
+      },
+      {
+        "uav": 2,
+        "from": 17,
+        "to": 7,
+        "km": 45.12482686947397,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 46,
+        "to": 28,
+        "km": 42.85148772213166,
+        "depot_edge": false
+      },
+      {
+        "uav": 1,
+        "from": 33,
+        "to": 43,
+        "km": 36.5,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 14,
+        "to": 47,
+        "km": 36.49657518178932,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 52,
+        "to": 14,
+        "km": 31.890437438203946,
+        "depot_edge": false
+      },
+      {
+        "uav": 2,
+        "from": 43,
+        "to": 10,
+        "km": 30.777426793024787,
+        "depot_edge": false
+      }
+    ],
+    "shared_exact_undirected_edges": [
+      {
+        "edge": [
+          0,
+          21
+        ],
+        "uavs": [
+          1,
+          2
+        ],
+        "traversals": 2,
+        "km": 55.33760023709015
+      },
+      {
+        "edge": [
+          23,
+          50
+        ],
+        "uavs": [
+          1,
+          3
+        ],
+        "traversals": 2,
+        "km": 12.747548783981962
+      },
+      {
+        "edge": [
+          1,
+          22
+        ],
+        "uavs": [
+          1,
+          2
+        ],
+        "traversals": 2,
+        "km": 4.609772228646444
+      }
+    ],
+    "longest_revisit_segments": [
+      {
+        "uav": 1,
+        "point": 51,
+        "segment": [
+          51,
+          11,
+          51
+        ],
+        "flight_km": 57.008771254956905,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 2,
+        "point": 4,
+        "segment": [
+          4,
+          43,
+          4
+        ],
+        "flight_km": 49.040799340956916,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 2,
+        "point": 43,
+        "segment": [
+          43,
+          4,
+          43
+        ],
+        "flight_km": 49.040799340956916,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 3,
+        "point": 28,
+        "segment": [
+          28,
+          26,
+          28
+        ],
+        "flight_km": 31.78049716414141,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 3,
+        "point": 28,
+        "segment": [
+          28,
+          27,
+          28
+        ],
+        "flight_km": 22.022715545545243,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 3,
+        "point": 27,
+        "segment": [
+          27,
+          28,
+          27
+        ],
+        "flight_km": 22.022715545545243,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 2,
+        "point": 45,
+        "segment": [
+          45,
+          19,
+          45
+        ],
+        "flight_km": 15.0,
+        "intermediate_visits": 1
+      },
+      {
+        "uav": 3,
+        "point": 50,
+        "segment": [
+          50,
+          20,
+          50
+        ],
+        "flight_km": 7.0710678118654755,
+        "intermediate_visits": 1
+      }
+    ],
+    "relocation_scope": "one copy from same-UAV repeated point to UAV with no existing visit to that point; all insertion positions",
+    "swap_legal_candidates": 699,
+    "swap_strict_Tmax_improving": 0,
+    "best_swaps": [
+      {
+        "uavs": [
+          1,
+          2
+        ],
+        "points": [
+          15,
+          4
+        ],
+        "positions": [
+          12,
+          14
+        ],
+        "task_copies": [
+          17,
+          5
+        ],
+        "new_metrics": {
+          "Tmax": 10.365481884049096,
+          "violation_h": 3.7789527660158218,
+          "total_h": 30.77895276601582,
+          "times_h": [
+            10.365481884049096,
+            10.165974628250645,
+            10.247496253716081
+          ]
+        },
+        "total_flight_saved_km": -4.006728877949239
+      },
+      {
+        "uavs": [
+          1,
+          2
+        ],
+        "points": [
+          15,
+          4
+        ],
+        "positions": [
+          12,
+          16
+        ],
+        "task_copies": [
+          17,
+          4
+        ],
+        "new_metrics": {
+          "Tmax": 10.365481884049096,
+          "violation_h": 3.8262152903587303,
+          "total_h": 30.826215290358732,
+          "times_h": [
+            10.365481884049096,
+            10.213237152593553,
+            10.247496253716081
+          ]
+        },
+        "total_flight_saved_km": -6.606167716809406
+      },
+      {
+        "uavs": [
+          1,
+          2
+        ],
+        "points": [
+          48,
+          15
+        ],
+        "positions": [
+          14,
+          10
+        ],
+        "task_copies": [
+          64,
+          19
+        ],
+        "new_metrics": {
+          "Tmax": 10.38356829877695,
+          "violation_h": 3.876249686938534,
+          "total_h": 30.876249686938536,
+          "times_h": [
+            10.38356829877695,
+            10.245185134445503,
+            10.247496253716081
+          ]
+        },
+        "total_flight_saved_km": -9.358059528698615
+      },
+      {
+        "uavs": [
+          1,
+          2
+        ],
+        "points": [
+          48,
+          15
+        ],
+        "positions": [
+          14,
+          12
+        ],
+        "task_copies": [
+          64,
+          18
+        ],
+        "new_metrics": {
+          "Tmax": 10.38356829877695,
+          "violation_h": 3.952494582889029,
+          "total_h": 30.95249458288903,
+          "times_h": [
+            10.38356829877695,
+            10.321430030395998,
+            10.247496253716081
+          ]
+        },
+        "total_flight_saved_km": -13.551528805975845
+      },
+      {
+        "uavs": [
+          1,
+          2
+        ],
+        "points": [
+          37,
+          15
+        ],
+        "positions": [
+          15,
+          10
+        ],
+        "task_copies": [
+          48,
+          19
+        ],
+        "new_metrics": {
+          "Tmax": 10.394220979967281,
+          "violation_h": 3.9478919411694253,
+          "total_h": 30.947891941169424,
+          "times_h": [
+            10.394220979967281,
+            10.306174707486063,
+            10.247496253716081
+          ]
+        },
+        "total_flight_saved_km": -13.298383511397436
+      }
+    ],
+    "legal_candidates": 522,
+    "source_seam_rejections": 4,
+    "destination_rejections": 0,
+    "strict_Tmax_improving_moves": 0,
+    "positive_total_distance_moves": 0,
+    "best_Tmax_moves": [
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          43,
+          15
+        ],
+        "destination_position": 12,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 10.346118622833199,
+        "total_flight_saved_km": -4.866332061654372,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.27144458102120966,
+        "new_metrics": {
+          "Tmax": 10.50468245474349,
+          "violation_h": 3.7945819148104594,
+          "total_h": 30.794581914810458,
+          "times_h": [
+            10.50468245474349,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          25,
+          12
+        ],
+        "destination_position": 6,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 15.856536892990832,
+        "total_flight_saved_km": -10.376750331812005,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.3716340041149848,
+        "new_metrics": {
+          "Tmax": 10.604871877837263,
+          "violation_h": 3.894771337904233,
+          "total_h": 30.89477133790423,
+          "times_h": [
+            10.604871877837263,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          46,
+          25
+        ],
+        "destination_position": 5,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 16.65577300067972,
+        "total_flight_saved_km": -11.175986439500893,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.3861655697093282,
+        "new_metrics": {
+          "Tmax": 10.619403443431608,
+          "violation_h": 3.9093029034985776,
+          "total_h": 30.909302903498578,
+          "times_h": [
+            10.619403443431608,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          15,
+          24
+        ],
+        "destination_position": 13,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 16.95228633964259,
+        "total_flight_saved_km": -11.472499778463764,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.39155672132683494,
+        "new_metrics": {
+          "Tmax": 10.624794595049115,
+          "violation_h": 3.914694055116085,
+          "total_h": 30.914694055116087,
+          "times_h": [
+            10.624794595049115,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 3,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          46,
+          28
+        ],
+        "destination_position": 9,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 21.9623191974706,
+        "total_flight_saved_km": -16.482532636291772,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.48264822783279876,
+        "new_metrics": {
+          "Tmax": 10.73014448154888,
+          "violation_h": 4.005785561622048,
+          "total_h": 31.005785561622048,
+          "times_h": [
+            10.23323787372228,
+            10.042403206350889,
+            10.73014448154888
+          ]
+        }
+      }
+    ],
+    "largest_distance_saving_moves": [
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          43,
+          15
+        ],
+        "destination_position": 12,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 10.346118622833199,
+        "total_flight_saved_km": -4.866332061654372,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.27144458102120966,
+        "new_metrics": {
+          "Tmax": 10.50468245474349,
+          "violation_h": 3.7945819148104594,
+          "total_h": 30.794581914810458,
+          "times_h": [
+            10.50468245474349,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          25,
+          12
+        ],
+        "destination_position": 6,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 15.856536892990832,
+        "total_flight_saved_km": -10.376750331812005,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.3716340041149848,
+        "new_metrics": {
+          "Tmax": 10.604871877837263,
+          "violation_h": 3.894771337904233,
+          "total_h": 30.89477133790423,
+          "times_h": [
+            10.604871877837263,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          46,
+          25
+        ],
+        "destination_position": 5,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 16.65577300067972,
+        "total_flight_saved_km": -11.175986439500893,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.3861655697093282,
+        "new_metrics": {
+          "Tmax": 10.619403443431608,
+          "violation_h": 3.9093029034985776,
+          "total_h": 30.909302903498578,
+          "times_h": [
+            10.619403443431608,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 4,
+        "task_copy": 5,
+        "source_uav": 2,
+        "destination_uav": 1,
+        "source_context": [
+          6,
+          4,
+          43
+        ],
+        "destination_edge": [
+          15,
+          24
+        ],
+        "destination_position": 13,
+        "source_removed_km": 5.479786561178827,
+        "destination_added_km": 16.95228633964259,
+        "total_flight_saved_km": -11.472499778463764,
+        "source_time_change_h": -0.18296581626385744,
+        "destination_time_change_h": 0.39155672132683494,
+        "new_metrics": {
+          "Tmax": 10.624794595049115,
+          "violation_h": 3.914694055116085,
+          "total_h": 30.914694055116087,
+          "times_h": [
+            10.624794595049115,
+            10.042403206350889,
+            10.247496253716081
+          ]
+        }
+      },
+      {
+        "point": 28,
+        "task_copy": 38,
+        "source_uav": 3,
+        "destination_uav": 1,
+        "source_context": [
+          26,
+          28,
+          27
+        ],
+        "destination_edge": [
+          25,
+          12
+        ],
+        "destination_position": 6,
+        "source_removed_km": 14.282176890719361,
+        "destination_added_km": 26.615444449984253,
+        "total_flight_saved_km": -12.333267559264891,
+        "source_time_change_h": -0.34300927680095805,
+        "destination_time_change_h": 0.5672505051512289,
+        "new_metrics": {
+          "Tmax": 10.800488378873508,
+          "violation_h": 3.930344378403378,
+          "total_h": 30.930344378403376,
+          "times_h": [
+            10.800488378873508,
+            10.225369022614746,
+            9.904486976915123
+          ]
+        }
+      }
+    ],
+    "input_zip_sha256": "9a81854069dd8e63d4436fb23a1226620353c38389cfeb9f892d08a2f58ef316"
+  },
+  "Case3": {
+    "case": "Case3",
+    "archive": "best_makespan",
+    "original": {
+      "Tmax": 9.403611015410185,
+      "violation_h": 1.5043833885881934,
+      "total_h": 37.504383388588195,
+      "times_h": [
+        9.403374663902373,
+        9.358016062101822,
+        9.339381647173814,
+        9.403611015410185
+      ]
+    },
+    "repeated_point_owners": {
+      "43": [
+        1,
+        1,
+        4
+      ],
+      "42": [
+        1,
+        4
+      ],
+      "41": [
+        1,
+        1
+      ],
+      "30": [
+        1,
+        3
+      ],
+      "68": [
+        1,
+        1,
+        1
+      ],
+      "1": [
+        1,
+        1
+      ],
+      "82": [
+        1,
+        3
+      ],
+      "75": [
+        1,
+        3
+      ],
+      "49": [
+        1,
+        3,
+        3
+      ],
+      "86": [
+        1,
+        1,
+        1
+      ],
+      "81": [
+        1,
+        1,
+        3
+      ],
+      "52": [
+        2,
+        3,
+        3
+      ],
+      "98": [
+        2,
+        4,
+        4
+      ],
+      "54": [
+        2,
+        2,
+        2
+      ],
+      "17": [
+        2,
+        2
+      ],
+      "70": [
+        2,
+        2
+      ],
+      "46": [
+        2,
+        2,
+        2
+      ],
+      "53": [
+        2,
+        4
+      ],
+      "47": [
+        2,
+        4
+      ],
+      "57": [
+        2,
+        4
+      ],
+      "36": [
+        2,
+        3,
+        4
+      ],
+      "11": [
+        2,
+        4
+      ],
+      "64": [
+        3,
+        3
+      ],
+      "32": [
+        3,
+        3
+      ],
+      "9": [
+        3,
+        3
+      ],
+      "3": [
+        3,
+        3
+      ],
+      "10": [
+        3,
+        3
+      ],
+      "29": [
+        4,
+        4
+      ],
+      "35": [
+        4,
+        4
+      ],
+      "23": [
+        4,
+        4
+      ]
+    },
+    "longest_edges": [
+      {
+        "uav": 2,
+        "from": 0,
+        "to": 52,
+        "km": 55.14261590938537,
+        "depot_edge": true
+      },
+      {
+        "uav": 2,
+        "from": 11,
+        "to": 0,
+        "km": 43.345304739037196,
+        "depot_edge": true
+      },
+      {
+        "uav": 3,
+        "from": 40,
+        "to": 52,
+        "km": 36.322462047472776,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 30,
+        "to": 24,
+        "km": 31.743157415457276,
+        "depot_edge": false
+      },
+      {
+        "uav": 4,
+        "from": 35,
+        "to": 23,
+        "km": 24.990053222196725,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 3,
+        "to": 64,
+        "km": 24.654026150914987,
+        "depot_edge": false
+      },
+      {
+        "uav": 4,
+        "from": 0,
+        "to": 55,
+        "km": 23.662790751211258,
+        "depot_edge": true
+      },
+      {
+        "uav": 4,
+        "from": 23,
+        "to": 31,
+        "km": 20.56084434045694,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 64,
+        "to": 13,
+        "km": 19.92755199215398,
+        "depot_edge": false
+      },
+      {
+        "uav": 1,
+        "from": 41,
+        "to": 43,
+        "km": 19.578978698463818,
+        "depot_edge": false
+      },
+      {
+        "uav": 3,
+        "from": 52,
+        "to": 36,
+        "km": 19.432325380664047,
+        "depot_edge": false
+      },
+      {
+        "uav": 1,
+        "from": 48,
+        "to": 68,
+        "km": 19.33496067567721,
+        "depot_edge": false
+      }
+    ],
+    "shared_exact_undirected_edges": [
+      {
+        "edge": [
+          11,
+          36
+        ],
+        "uavs": [
+          2,
+          4
+        ],
+        "traversals": 2,
+        "km": 16.939995993210857
+      },
+      {
+        "edge": [
+          36,
+          57
+        ],
+        "uavs": [
+          2,
+          4
+        ],
+        "traversals": 2,
+        "km": 10.049540552681998
+      },
+      {
+        "edge": [
+          47,
+          57
+        ],
+        "uavs": [
+          2,
+          4
+        ],
+        "traversals": 2,
+        "km": 10.044983765541888
+      },
+      {
+        "edge": [
+          0,
+          43
+        ],
+        "uavs": [
+          1,
+          4
+        ],
+        "traversals": 3,
+        "km": 8.898732600033558
+      },
+      {
+        "edge": [
+          42,
+          43
+        ],
+        "uavs": [
+          1,
+          4
+        ],
+        "traversals": 2,
+        "km": 6.635847937686638
+      },
+      {
+        "edge": [
+          49,
+          75
+        ],
+        "uavs": [
+          1,
+          3
+        ],
+        "traversals": 2,
+        "km": 3.77856699027555
+      },
+      {
+        "edge": [
+          75,
+          82
+        ],
+        "uavs": [
+          1,
+          3
+        ],
+        "traversals": 2,
+        "km": 3.597474761551492
+      }
+    ],
+    "longest_revisit_segments": [
+      {
+        "uav": 1,
+        "point": 43,
+        "segment": [
+          43,
+          42,
+          41,
+          30,
+          48,
+          68,
+          83,
+          68,
+          71,
+          1,
+          60,
+          1,
+          18,
+          62,
+          87,
+          14,
+          12,
+          85,
+          82,
+          75,
+          49,
+          67,
+          86,
+          97,
+          86,
+          63,
+          86,
+          15,
+          69,
+          8,
+          68,
+          51,
+          90,
+          65,
+          81,
+          80,
+          81,
+          22,
+          41,
+          43
+        ],
+        "flight_km": 316.05480798123006,
+        "intermediate_visits": 38
+      },
+      {
+        "uav": 1,
+        "point": 41,
+        "segment": [
+          41,
+          30,
+          48,
+          68,
+          83,
+          68,
+          71,
+          1,
+          60,
+          1,
+          18,
+          62,
+          87,
+          14,
+          12,
+          85,
+          82,
+          75,
+          49,
+          67,
+          86,
+          97,
+          86,
+          63,
+          86,
+          15,
+          69,
+          8,
+          68,
+          51,
+          90,
+          65,
+          81,
+          80,
+          81,
+          22,
+          41
+        ],
+        "flight_km": 276.44447785314617,
+        "intermediate_visits": 35
+      },
+      {
+        "uav": 3,
+        "point": 64,
+        "segment": [
+          64,
+          13,
+          49,
+          21,
+          49,
+          75,
+          82,
+          32,
+          4,
+          32,
+          9,
+          26,
+          9,
+          74,
+          20,
+          78,
+          3,
+          10,
+          33,
+          10,
+          3,
+          64
+        ],
+        "flight_km": 171.50991482596717,
+        "intermediate_visits": 20
+      },
+      {
+        "uav": 1,
+        "point": 68,
+        "segment": [
+          68,
+          71,
+          1,
+          60,
+          1,
+          18,
+          62,
+          87,
+          14,
+          12,
+          85,
+          82,
+          75,
+          49,
+          67,
+          86,
+          97,
+          86,
+          63,
+          86,
+          15,
+          69,
+          8,
+          68
+        ],
+        "flight_km": 146.46442359961895,
+        "intermediate_visits": 22
+      },
+      {
+        "uav": 2,
+        "point": 54,
+        "segment": [
+          54,
+          17,
+          70,
+          72,
+          70,
+          17,
+          54
+        ],
+        "flight_km": 60.47357674405064,
+        "intermediate_visits": 5
+      },
+      {
+        "uav": 4,
+        "point": 23,
+        "segment": [
+          23,
+          2,
+          89,
+          23
+        ],
+        "flight_km": 35.638944610821916,
+        "intermediate_visits": 2
+      },
+      {
+        "uav": 3,
+        "point": 3,
+        "segment": [
+          3,
+          10,
+          33,
+          10,
+          3
+        ],
+        "flight_km": 34.2551441961473,
+        "intermediate_visits": 3
+      },
+      {
+        "uav": 2,
+        "point": 17,
+        "segment": [
+          17,
+          70,
+          72,
+          70,
+          17
+        ],
+        "flight_km": 33.301495484051436,
+        "intermediate_visits": 3
+      }
+    ],
+    "relocation_scope": "one copy from same-UAV repeated point to UAV with no existing visit to that point; all insertion positions",
+    "swap_legal_candidates": 4008,
+    "swap_strict_Tmax_improving": 0,
+    "best_swaps": [
+      {
+        "uavs": [
+          1,
+          3
+        ],
+        "points": [
+          43,
+          25
+        ],
+        "positions": [
+          39,
+          31
+        ],
+        "task_copies": [
+          57,
+          31
+        ],
+        "new_metrics": {
+          "Tmax": 9.403611015410185,
+          "violation_h": 1.5367701351885952,
+          "total_h": 37.5367701351886,
+          "times_h": [
+            9.402761563196815,
+            9.358016062101822,
+            9.372381494479773,
+            9.403611015410185
+          ]
+        },
+        "total_flight_saved_km": -1.7812710630220963
+      },
+      {
+        "uavs": [
+          1,
+          3
+        ],
+        "points": [
+          43,
+          25
+        ],
+        "positions": [
+          0,
+          31
+        ],
+        "task_copies": [
+          59,
+          31
+        ],
+        "new_metrics": {
+          "Tmax": 9.408871379419061,
+          "violation_h": 1.5428799514108409,
+          "total_h": 37.54287995141084,
+          "times_h": [
+            9.408871379419061,
+            9.358016062101822,
+            9.372381494479773,
+            9.403611015410185
+          ]
+        },
+        "total_flight_saved_km": -2.117310955245415
+      },
+      {
+        "uavs": [
+          1,
+          3
+        ],
+        "points": [
+          43,
+          24
+        ],
+        "positions": [
+          39,
+          30
+        ],
+        "task_copies": [
+          57,
+          30
+        ],
+        "new_metrics": {
+          "Tmax": 9.412320700195504,
+          "violation_h": 1.5360892346632546,
+          "total_h": 37.53608923466325,
+          "times_h": [
+            9.412320700195504,
+            9.358016062101822,
+            9.362141456955744,
+            9.403611015410185
+          ]
+        },
+        "total_flight_saved_km": -1.7438215341280738
+      },
+      {
+        "uavs": [
+          1,
+          3
+        ],
+        "points": [
+          41,
+          24
+        ],
+        "positions": [
+          38,
+          30
+        ],
+        "task_copies": [
+          53,
+          30
+        ],
+        "new_metrics": {
+          "Tmax": 9.442234598272567,
+          "violation_h": 1.6085413238934123,
+          "total_h": 37.60854132389341,
+          "times_h": [
+            9.442234598272567,
+            9.358016062101822,
+            9.40467964810884,
+            9.403611015410185
+          ]
+        },
+        "total_flight_saved_km": -5.728686441786941
+      },
+      {
+        "uavs": [
+          1,
+          3
+        ],
+        "points": [
+          43,
+          24
+        ],
+        "positions": [
+          0,
+          30
+        ],
+        "task_copies": [
+          59,
+          30
+        ],
+        "new_metrics": {
+          "Tmax": 9.45512595955539,
+          "violation_h": 1.5788944940231406,
+          "total_h": 37.57889449402314,
+          "times_h": [
+            9.45512595955539,
+            9.358016062101822,
+            9.362141456955744,
+            9.403611015410185
+          ]
+        },
+        "total_flight_saved_km": -4.098110798921901
+      }
+    ],
+    "legal_candidates": 4388,
+    "source_seam_rejections": 2,
+    "destination_rejections": 0,
+    "strict_Tmax_improving_moves": 0,
+    "positive_total_distance_moves": 2,
+    "best_Tmax_moves": [
+      {
+        "point": 43,
+        "task_copy": 57,
+        "source_uav": 1,
+        "destination_uav": 2,
+        "source_context": [
+          41,
+          43,
+          0
+        ],
+        "destination_edge": [
+          11,
+          0
+        ],
+        "destination_position": 33,
+        "source_removed_km": 0.08683532046527631,
+        "destination_added_km": 0.5118900923774774,
+        "total_flight_saved_km": -0.4250547719122011,
+        "source_time_change_h": -0.0849121573417929,
+        "destination_time_change_h": 0.09264042592201474,
+        "new_metrics": {
+          "Tmax": 9.450656488023835,
+          "violation_h": 1.512111657168413,
+          "total_h": 37.51211165716841,
+          "times_h": [
+            9.318462506560579,
+            9.450656488023835,
+            9.339381647173814,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 59,
+        "source_uav": 1,
+        "destination_uav": 2,
+        "source_context": [
+          0,
+          43,
+          42
+        ],
+        "destination_edge": [
+          11,
+          0
+        ],
+        "destination_position": 33,
+        "source_removed_km": 0.03485435141612925,
+        "destination_added_km": 0.5118900923774774,
+        "total_flight_saved_km": -0.47703574096134815,
+        "source_time_change_h": -0.08396704881362659,
+        "destination_time_change_h": 0.09264042592201474,
+        "new_metrics": {
+          "Tmax": 9.450656488023835,
+          "violation_h": 1.5130567656965805,
+          "total_h": 37.51305676569658,
+          "times_h": [
+            9.319407615088746,
+            9.450656488023835,
+            9.339381647173814,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 57,
+        "source_uav": 1,
+        "destination_uav": 3,
+        "source_context": [
+          41,
+          43,
+          0
+        ],
+        "destination_edge": [
+          0,
+          40
+        ],
+        "destination_position": 0,
+        "source_removed_km": 0.08683532046527631,
+        "destination_added_km": 2.1403055771918957,
+        "total_flight_saved_km": -2.0534702567266194,
+        "source_time_change_h": -0.0849121573417929,
+        "destination_time_change_h": 0.12224798019136779,
+        "new_metrics": {
+          "Tmax": 9.46162962736518,
+          "violation_h": 1.5417192114377656,
+          "total_h": 37.541719211437766,
+          "times_h": [
+            9.318462506560579,
+            9.358016062101822,
+            9.46162962736518,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 59,
+        "source_uav": 1,
+        "destination_uav": 3,
+        "source_context": [
+          0,
+          43,
+          42
+        ],
+        "destination_edge": [
+          0,
+          40
+        ],
+        "destination_position": 0,
+        "source_removed_km": 0.03485435141612925,
+        "destination_added_km": 2.1403055771918957,
+        "total_flight_saved_km": -2.1054512257757665,
+        "source_time_change_h": -0.08396704881362659,
+        "destination_time_change_h": 0.12224798019136779,
+        "new_metrics": {
+          "Tmax": 9.46162962736518,
+          "violation_h": 1.5426643199659331,
+          "total_h": 37.54266431996594,
+          "times_h": [
+            9.319407615088746,
+            9.358016062101822,
+            9.46162962736518,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 57,
+        "source_uav": 1,
+        "destination_uav": 3,
+        "source_context": [
+          41,
+          43,
+          0
+        ],
+        "destination_edge": [
+          24,
+          25
+        ],
+        "destination_position": 31,
+        "source_removed_km": 0.08683532046527631,
+        "destination_added_km": 2.1494827945824824,
+        "total_flight_saved_km": -2.062647474117206,
+        "source_time_change_h": -0.0849121573417929,
+        "destination_time_change_h": 0.12241483868937847,
+        "new_metrics": {
+          "Tmax": 9.461796485863193,
+          "violation_h": 1.541886069935778,
+          "total_h": 37.54188606993578,
+          "times_h": [
+            9.318462506560579,
+            9.358016062101822,
+            9.461796485863193,
+            9.403611015410185
+          ]
+        }
+      }
+    ],
+    "largest_distance_saving_moves": [
+      {
+        "point": 10,
+        "task_copy": 12,
+        "source_uav": 3,
+        "destination_uav": 2,
+        "source_context": [
+          3,
+          10,
+          33
+        ],
+        "destination_edge": [
+          27,
+          79
+        ],
+        "destination_position": 27,
+        "source_removed_km": 5.677016497143185,
+        "destination_added_km": 5.0483452905145825,
+        "total_flight_saved_km": 0.6286712066286029,
+        "source_time_change_h": -0.18655181509957308,
+        "destination_time_change_h": 0.17512142952450754,
+        "new_metrics": {
+          "Tmax": 9.533137491626327,
+          "violation_h": 1.492953003013124,
+          "total_h": 37.49295300301313,
+          "times_h": [
+            9.403374663902373,
+            9.533137491626327,
+            9.15282983207424,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 10,
+        "task_copy": 13,
+        "source_uav": 3,
+        "destination_uav": 2,
+        "source_context": [
+          33,
+          10,
+          3
+        ],
+        "destination_edge": [
+          27,
+          79
+        ],
+        "destination_position": 27,
+        "source_removed_km": 5.677016497143185,
+        "destination_added_km": 5.0483452905145825,
+        "total_flight_saved_km": 0.6286712066286029,
+        "source_time_change_h": -0.18655181509957308,
+        "destination_time_change_h": 0.17512142952450754,
+        "new_metrics": {
+          "Tmax": 9.533137491626327,
+          "violation_h": 1.492953003013124,
+          "total_h": 37.49295300301313,
+          "times_h": [
+            9.403374663902373,
+            9.533137491626327,
+            9.15282983207424,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 57,
+        "source_uav": 1,
+        "destination_uav": 2,
+        "source_context": [
+          41,
+          43,
+          0
+        ],
+        "destination_edge": [
+          11,
+          0
+        ],
+        "destination_position": 33,
+        "source_removed_km": 0.08683532046527631,
+        "destination_added_km": 0.5118900923774774,
+        "total_flight_saved_km": -0.4250547719122011,
+        "source_time_change_h": -0.0849121573417929,
+        "destination_time_change_h": 0.09264042592201474,
+        "new_metrics": {
+          "Tmax": 9.450656488023835,
+          "violation_h": 1.512111657168413,
+          "total_h": 37.51211165716841,
+          "times_h": [
+            9.318462506560579,
+            9.450656488023835,
+            9.339381647173814,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 59,
+        "source_uav": 1,
+        "destination_uav": 2,
+        "source_context": [
+          0,
+          43,
+          42
+        ],
+        "destination_edge": [
+          11,
+          0
+        ],
+        "destination_position": 33,
+        "source_removed_km": 0.03485435141612925,
+        "destination_added_km": 0.5118900923774774,
+        "total_flight_saved_km": -0.47703574096134815,
+        "source_time_change_h": -0.08396704881362659,
+        "destination_time_change_h": 0.09264042592201474,
+        "new_metrics": {
+          "Tmax": 9.450656488023835,
+          "violation_h": 1.5130567656965805,
+          "total_h": 37.51305676569658,
+          "times_h": [
+            9.319407615088746,
+            9.450656488023835,
+            9.339381647173814,
+            9.403611015410185
+          ]
+        }
+      },
+      {
+        "point": 43,
+        "task_copy": 57,
+        "source_uav": 1,
+        "destination_uav": 2,
+        "source_context": [
+          41,
+          43,
+          0
+        ],
+        "destination_edge": [
+          0,
+          52
+        ],
+        "destination_position": 0,
+        "source_removed_km": 0.08683532046527631,
+        "destination_added_km": 1.6884126447843784,
+        "total_flight_saved_km": -1.601577324319102,
+        "source_time_change_h": -0.0849121573417929,
+        "destination_time_change_h": 0.11403174505668566,
+        "new_metrics": {
+          "Tmax": 9.472047807158507,
+          "violation_h": 1.533502976303085,
+          "total_h": 37.53350297630308,
+          "times_h": [
+            9.318462506560579,
+            9.472047807158507,
+            9.339381647173814,
+            9.403611015410185
+          ]
+        }
+      }
+    ],
+    "input_zip_sha256": "4018d06ce08246d0b594e750fe8915592da6bea4b791c3c6b3170b85fc100391"
+  }
+}
