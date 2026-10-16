@@ -1,0 +1,16 @@
+test_initial_checkpoint_and_archive_resume (test_solver.Tests.test_initial_checkpoint_and_archive_resume) ... ok
+test_same_location_tasks_not_consecutive (test_solver.Tests.test_same_location_tasks_not_consecutive) ... ok
+test_separator_removal_and_repair_preserve_tasks (test_solver.Tests.test_separator_removal_and_repair_preserve_tasks) ... ok
+test_validator_rejects_duplicate_and_wrong_times (test_solver.Tests.test_validator_rejects_duplicate_and_wrong_times) ... ok
+test_validator_rejects_missing_archive_or_wrong_identity (test_solver.Tests.test_validator_rejects_missing_archive_or_wrong_identity) ... ok
+test_http (test_remote.RemoteTests.test_http) ... ok
+test_killed_child_restarts_and_resume_keeps_archives (test_remote.RemoteTests.test_killed_child_restarts_and_resume_keeps_archives) ... ok
+test_initialization_timeout_has_no_traceback (test_neighborhood_entry.EntryTests.test_initialization_timeout_has_no_traceback) ... ok
+test_operator_names_and_forced_joint_branch (test_neighborhood_entry.EntryTests.test_operator_names_and_forced_joint_branch) ... ok
+test_killed_worker_pause_resume_deadline_and_archives (test_six_hour_queue.QueueTests.test_killed_worker_pause_resume_deadline_and_archives) ... ok
+test_promotion_requires_two_paired_improvements (test_six_hour_queue.QueueTests.test_promotion_requires_two_paired_improvements) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 34.313s
+
+OK
